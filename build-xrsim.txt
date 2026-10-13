@@ -1,0 +1,90 @@
+-- The CXX compiler identification is AppleClang 21.0.0.21000101
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- The OBJCXX compiler identification is AppleClang 21.0.0.21000101
+-- Detecting OBJCXX compiler ABI info
+-- Detecting OBJCXX compiler ABI info - done
+-- Check for working OBJCXX compiler: /usr/bin/c++ - skipped
+-- Configuring done (4.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim
+ninja: Entering directory `build/gpu-xrsim'
+[0/2] Re-checking globbed directories...
+[1/73] Building CXX object shader/ir/CMakeFiles/vpir.dir/src/ir.cpp.o
+[2/73] Building CXX object shader/ir/CMakeFiles/vpir.dir/src/print.cpp.o
+[3/73] Building CXX object shader/ir/CMakeFiles/vpir.dir/src/builder.cpp.o
+[4/73] Building CXX object shader/ir/CMakeFiles/vpir.dir/src/parse.cpp.o
+[5/73] Building CXX object shader/ir/CMakeFiles/vpir.dir/src/verify.cpp.o
+[6/73] Building CXX object shader/ir/CMakeFiles/vpir.dir/src/fbfetch.cpp.o
+[7/73] Building CXX object shader/ir/CMakeFiles/vpir.dir/src/optimize.cpp.o
+[8/73] Building CXX object shader/gcn/CMakeFiles/vpgcn.dir/src/gcn.cpp.o
+[9/73] Building CXX object core/CMakeFiles/vpgpu_core.dir/src/resources.cpp.o
+[10/73] Linking CXX static library shader/ir/libvpir.a
+[11/73] Linking CXX static library shader/gcn/libvpgcn.a
+[12/73] Building CXX object core/CMakeFiles/vpgpu_core.dir/src/commands.cpp.o
+[13/73] Building CXX object shader/msl/CMakeFiles/vpmsl.dir/src/msl.cpp.o
+[14/73] Building CXX object core/CMakeFiles/vpgpu_core.dir/src/diagnostics.cpp.o
+[15/73] Building CXX object core/CMakeFiles/vpgpu_core.dir/src/pipeline_cache.cpp.o
+[16/73] Linking CXX static library shader/msl/libvpmsl.a
+[17/73] Building CXX object core/CMakeFiles/vpgpu_core.dir/src/frame_compiler.cpp.o
+[18/73] Building CXX object shader/gcn/CMakeFiles/vpgcn_lift.dir/src/lift.cpp.o
+[19/73] Linking CXX static library shader/gcn/libvpgcn_lift.a
+[20/73] Building CXX object core/CMakeFiles/vpgpu_core.dir/src/device.cpp.o
+[21/73] Building CXX object core/CMakeFiles/vpgpu_core.dir/src/null_backend.cpp.o
+[22/73] Linking CXX static library core/libvpgpu_core.a
+[23/73] Building CXX object shader/gcn/tests/CMakeFiles/vpgcn_ref.dir/ref/gcn_ref.cpp.o
+[24/73] Building CXX object shader/spirv/CMakeFiles/vpspirv.dir/src/parse.cpp.o
+[25/73] Building CXX object ps4/CMakeFiles/vpps4.dir/src/formats.cpp.o
+[26/73] Building CXX object ps4/CMakeFiles/vpps4.dir/src/tiling.cpp.o
+[27/73] Building CXX object ps4/CMakeFiles/vpps4.dir/src/fetch.cpp.o
+[28/73] Building OBJCXX object metal/CMakeFiles/vpgpu_metal.dir/src/metal_backend.mm.o
+[29/73] Building CXX object shader/msl/tests/CMakeFiles/vpmsl_golden.dir/golden.cpp.o
+[30/73] Building CXX object shader/spirv/CMakeFiles/vpspirv.dir/src/lower.cpp.o
+[31/73] Building CXX object shader/ir/tests/CMakeFiles/vpir_test.dir/vpir_test.cpp.o
+[32/73] Building CXX object ps4/CMakeFiles/vpps4.dir/src/renderer.cpp.o
+[33/73] Linking CXX static library shader/gcn/tests/libvpgcn_ref.a
+[34/73] Building CXX object shader/gcn/tests/CMakeFiles/vpgcn_test.dir/gcn_test.cpp.o
+[35/73] Building CXX object shader/gcn/tests/CMakeFiles/vpgcn_lift_test.dir/lift_test.cpp.o
+[36/73] Building CXX object shader/gcn/tests/CMakeFiles/vpgcn_ref_selftest.dir/ref/gcn_ref_test.cpp.o
+[37/73] Linking CXX static library shader/spirv/libvpspirv.a
+[38/73] Building OBJCXX object metal2/CMakeFiles/vpgpu_metal2.dir/src/metal_backend.mm.o
+[39/73] Building CXX object shader/gcn/CMakeFiles/vpgcn_lift_batch.dir/tools/lift_batch.cpp.o
+[40/73] Linking CXX static library metal/libvpgpu_metal.a
+[41/73] Building CXX object shader/gcn/tests/CMakeFiles/vpgcn_diff.dir/diff/gcn_diff.cpp.o
+[42/73] Building CXX object shader/spirv/CMakeFiles/vpspirv_tests.dir/tests/spirv_tests.cpp.o
+[43/73] Linking CXX static library metal2/libvpgpu_metal2.a
+[44/73] Building CXX object shader/gcn/tests/CMakeFiles/vpgcn_diff.dir/diff/vpir_eval.cpp.o
+[45/73] Building CXX object metal/CMakeFiles/vpgpu_metal_tests.dir/tests/metal_tests.cpp.o
+[46/73] Building CXX object vulkan/CMakeFiles/VPVulkan.dir/src/physical_device.cpp.o
+[47/73] Building CXX object core/CMakeFiles/vpgpu_core_tests.dir/tests/core_tests.cpp.o
+[48/73] Building CXX object metal2/CMakeFiles/vpgpu_metal2_tests.dir/tests/metal_tests.cpp.o
+[49/73] Building CXX object vulkan/CMakeFiles/VPVulkan.dir/src/entry.cpp.o
+[50/73] Building CXX object vulkan/CMakeFiles/VPVulkan.dir/src/config.cpp.o
+[51/73] Building CXX object vulkan/CMakeFiles/VPVulkan.dir/src/commands.cpp.o
+[52/73] Linking CXX static library ps4/libvpps4.a
+[53/73] Building OBJCXX object vulkan/CMakeFiles/VPVulkan.dir/src/platform_metal.mm.o
+[54/73] Building CXX object vulkan/CMakeFiles/VPVulkan.dir/src/precompile.cpp.o
+[55/73] Building CXX object ps4/CMakeFiles/vpps4_tiling_tests.dir/tests/tiling_tests.cpp.o
+[56/73] Linking CXX executable shader/ir/tests/vpir_test
+[57/73] Linking CXX executable shader/msl/tests/vpmsl_golden
+[58/73] Linking CXX executable shader/gcn/tests/vpgcn_test
+[59/73] Linking CXX executable shader/gcn/vpgcn_lift_batch
+[60/73] Linking CXX executable shader/gcn/tests/vpgcn_ref_selftest
+[61/73] Linking CXX executable shader/gcn/tests/vpgcn_lift_test
+[62/73] Linking CXX executable shader/gcn/tests/vpgcn_diff
+[63/73] Linking CXX executable shader/spirv/vpspirv_tests
+[64/73] Linking CXX executable core/vpgpu_core_tests
+[65/73] Building CXX object ps4/CMakeFiles/vpps4_tests.dir/tests/renderer_tests.cpp.o
+[66/73] Linking CXX executable metal/vpgpu_metal_tests
+[67/73] Linking CXX executable ps4/vpps4_tests
+[68/73] Linking CXX executable metal2/vpgpu_metal2_tests
+[69/73] Linking CXX executable ps4/vpps4_tiling_tests
+[70/73] Building CXX object vulkan/CMakeFiles/VPVulkan.dir/src/recipes.cpp.o
+[71/73] Building CXX object vulkan/CMakeFiles/VPVulkan.dir/src/pipelines.cpp.o
+[72/73] Linking CXX shared library vulkan/libVPVulkan.dylib

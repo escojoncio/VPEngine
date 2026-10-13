@@ -1,0 +1,3465 @@
+UpdateCTestConfiguration  from :/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/DartConfiguration.tcl
+Test project /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+        Start   1: vpir.builder
+
+1: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "builder"
+1: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+1: Test timeout computed to be: 10000000
+  1/158 Test   #1: vpir.builder ...............................   Passed   24.11 sec
+test 2
+        Start   2: vpir.roundtrip.compute_loop
+
+2: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "roundtrip" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/../../msl/tests/compute_loop.vpir"
+2: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+2: Test timeout computed to be: 10000000
+  2/158 Test   #2: vpir.roundtrip.compute_loop ................   Passed   12.77 sec
+test 3
+        Start   3: vpir.roundtrip.deferred_light_fetched_fs
+
+3: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "roundtrip" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/../../msl/tests/deferred_light_fetched_fs.vpir"
+3: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+3: Test timeout computed to be: 10000000
+  3/158 Test   #3: vpir.roundtrip.deferred_light_fetched_fs ...   Passed    7.43 sec
+test 4
+        Start   4: vpir.roundtrip.deferred_light_fs
+
+4: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "roundtrip" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/../../msl/tests/deferred_light_fs.vpir"
+4: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+4: Test timeout computed to be: 10000000
+  4/158 Test   #4: vpir.roundtrip.deferred_light_fs ...........   Passed    2.48 sec
+test 5
+        Start   5: vpir.roundtrip.heavy_lighting_fs
+
+5: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "roundtrip" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/../../msl/tests/heavy_lighting_fs.vpir"
+5: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+5: Test timeout computed to be: 10000000
+  5/158 Test   #5: vpir.roundtrip.heavy_lighting_fs ...........   Passed    1.93 sec
+test 6
+        Start   6: vpir.roundtrip.image_atomics
+
+6: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "roundtrip" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/../../msl/tests/image_atomics.vpir"
+6: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+6: Test timeout computed to be: 10000000
+  6/158 Test   #6: vpir.roundtrip.image_atomics ...............   Passed   10.19 sec
+test 7
+        Start   7: vpir.roundtrip.mesh_stage
+
+7: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "roundtrip" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/../../msl/tests/mesh_stage.vpir"
+7: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+7: Test timeout computed to be: 10000000
+  7/158 Test   #7: vpir.roundtrip.mesh_stage ..................   Passed    5.05 sec
+test 8
+        Start   8: vpir.roundtrip.object_stage
+
+8: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "roundtrip" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/../../msl/tests/object_stage.vpir"
+8: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+8: Test timeout computed to be: 10000000
+  8/158 Test   #8: vpir.roundtrip.object_stage ................   Passed    8.26 sec
+test 9
+        Start   9: vpir.roundtrip.passthrough_vs
+
+9: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "roundtrip" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/../../msl/tests/passthrough_vs.vpir"
+9: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+9: Test timeout computed to be: 10000000
+  9/158 Test   #9: vpir.roundtrip.passthrough_vs ..............   Passed    5.02 sec
+test 10
+        Start  10: vpir.roundtrip.precise_fma
+
+10: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "roundtrip" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/../../msl/tests/precise_fma.vpir"
+10: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+10: Test timeout computed to be: 10000000
+ 10/158 Test  #10: vpir.roundtrip.precise_fma .................   Passed   11.89 sec
+test 11
+        Start  11: vpir.roundtrip.private_memory
+
+11: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "roundtrip" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/../../msl/tests/private_memory.vpir"
+11: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+11: Test timeout computed to be: 10000000
+ 11/158 Test  #11: vpir.roundtrip.private_memory ..............   Passed    1.57 sec
+test 12
+        Start  12: vpir.roundtrip.private_slots
+
+12: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "roundtrip" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/../../msl/tests/private_slots.vpir"
+12: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+12: Test timeout computed to be: 10000000
+ 12/158 Test  #12: vpir.roundtrip.private_slots ...............   Passed    1.17 sec
+test 13
+        Start  13: vpir.roundtrip.quad_ops
+
+13: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "roundtrip" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/../../msl/tests/quad_ops.vpir"
+13: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+13: Test timeout computed to be: 10000000
+ 13/158 Test  #13: vpir.roundtrip.quad_ops ....................   Passed    3.98 sec
+test 14
+        Start  14: vpir.roundtrip.query_lod
+
+14: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "roundtrip" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/../../msl/tests/query_lod.vpir"
+14: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+14: Test timeout computed to be: 10000000
+ 14/158 Test  #14: vpir.roundtrip.query_lod ...................   Passed    0.85 sec
+test 15
+        Start  15: vpir.roundtrip.subgroup
+
+15: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "roundtrip" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/../../msl/tests/subgroup.vpir"
+15: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+15: Test timeout computed to be: 10000000
+ 15/158 Test  #15: vpir.roundtrip.subgroup ....................   Passed    1.60 sec
+test 16
+        Start  16: vpir.roundtrip.syntax_tour
+
+16: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "roundtrip" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/../../msl/tests/syntax_tour.vpir"
+16: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+16: Test timeout computed to be: 10000000
+ 16/158 Test  #16: vpir.roundtrip.syntax_tour .................   Passed    0.84 sec
+test 17
+        Start  17: vpir.roundtrip.textured_fs
+
+17: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "roundtrip" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/../../msl/tests/textured_fs.vpir"
+17: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+17: Test timeout computed to be: 10000000
+ 17/158 Test  #17: vpir.roundtrip.textured_fs .................   Passed    0.98 sec
+test 18
+        Start  18: vpir.reject.break_outside_loop
+
+18: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/break_outside_loop.vpir"
+18: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+18: Test timeout computed to be: 10000000
+ 18/158 Test  #18: vpir.reject.break_outside_loop .............   Passed    1.20 sec
+test 19
+        Start  19: vpir.reject.builtin_wrong_stage
+
+19: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/builtin_wrong_stage.vpir"
+19: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+19: Test timeout computed to be: 10000000
+ 19/158 Test  #19: vpir.reject.builtin_wrong_stage ............   Passed    1.73 sec
+test 20
+        Start  20: vpir.reject.compare_needs_depth
+
+20: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/compare_needs_depth.vpir"
+20: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+20: Test timeout computed to be: 10000000
+ 20/158 Test  #20: vpir.reject.compare_needs_depth ............   Passed    1.65 sec
+test 21
+        Start  21: vpir.reject.derivative_in_vertex
+
+21: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/derivative_in_vertex.vpir"
+21: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+21: Test timeout computed to be: 10000000
+ 21/158 Test  #21: vpir.reject.derivative_in_vertex ...........   Passed    0.95 sec
+test 22
+        Start  22: vpir.reject.discard_in_compute
+
+22: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/discard_in_compute.vpir"
+22: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+22: Test timeout computed to be: 10000000
+ 22/158 Test  #22: vpir.reject.discard_in_compute .............   Passed    1.25 sec
+test 23
+        Start  23: vpir.reject.fetch_depth_type
+
+23: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/fetch_depth_type.vpir"
+23: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+23: Test timeout computed to be: 10000000
+ 23/158 Test  #23: vpir.reject.fetch_depth_type ...............   Passed    0.90 sec
+test 24
+        Start  24: vpir.reject.fetch_in_compute
+
+24: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/fetch_in_compute.vpir"
+24: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+24: Test timeout computed to be: 10000000
+ 24/158 Test  #24: vpir.reject.fetch_in_compute ...............   Passed    1.17 sec
+test 25
+        Start  25: vpir.reject.fetch_output_type
+
+25: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/fetch_output_type.vpir"
+25: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+25: Test timeout computed to be: 10000000
+ 25/158 Test  #25: vpir.reject.fetch_output_type ..............   Passed    1.02 sec
+test 26
+        Start  26: vpir.reject.forward_call
+
+26: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/forward_call.vpir"
+26: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+26: Test timeout computed to be: 10000000
+ 26/158 Test  #26: vpir.reject.forward_call ...................   Passed    0.98 sec
+test 27
+        Start  27: vpir.reject.helper_reads_input
+
+27: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/helper_reads_input.vpir"
+27: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+27: Test timeout computed to be: 10000000
+ 27/158 Test  #27: vpir.reject.helper_reads_input .............   Passed    0.85 sec
+test 28
+        Start  28: vpir.reject.if_not_bool
+
+28: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/if_not_bool.vpir"
+28: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+28: Test timeout computed to be: 10000000
+ 28/158 Test  #28: vpir.reject.if_not_bool ....................   Passed    1.13 sec
+test 29
+        Start  29: vpir.reject.image_operand_order
+
+29: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/image_operand_order.vpir"
+29: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+29: Test timeout computed to be: 10000000
+ 29/158 Test  #29: vpir.reject.image_operand_order ............   Passed    0.97 sec
+test 30
+        Start  30: vpir.reject.integer_varying
+
+30: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/integer_varying.vpir"
+30: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+30: Test timeout computed to be: 10000000
+ 30/158 Test  #30: vpir.reject.integer_varying ................   Passed    1.01 sec
+test 31
+        Start  31: vpir.reject.mesh_vertex_shape
+
+31: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/mesh_vertex_shape.vpir"
+31: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+31: Test timeout computed to be: 10000000
+ 31/158 Test  #31: vpir.reject.mesh_vertex_shape ..............   Passed    0.85 sec
+test 32
+        Start  32: vpir.reject.missing_main
+
+32: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/missing_main.vpir"
+32: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+32: Test timeout computed to be: 10000000
+ 32/158 Test  #32: vpir.reject.missing_main ...................   Passed    0.96 sec
+test 33
+        Start  33: vpir.reject.missing_position
+
+33: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/missing_position.vpir"
+33: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+33: Test timeout computed to be: 10000000
+ 33/158 Test  #33: vpir.reject.missing_position ...............   Passed    1.07 sec
+test 34
+        Start  34: vpir.reject.payload_write_in_mesh
+
+34: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/payload_write_in_mesh.vpir"
+34: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+34: Test timeout computed to be: 10000000
+ 34/158 Test  #34: vpir.reject.payload_write_in_mesh ..........   Passed    1.74 sec
+test 35
+        Start  35: vpir.reject.redefinition
+
+35: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/redefinition.vpir"
+35: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+35: Test timeout computed to be: 10000000
+ 35/158 Test  #35: vpir.reject.redefinition ...................   Passed    0.97 sec
+test 36
+        Start  36: vpir.reject.return_type
+
+36: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/return_type.vpir"
+36: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+36: Test timeout computed to be: 10000000
+ 36/158 Test  #36: vpir.reject.return_type ....................   Passed    0.83 sec
+test 37
+        Start  37: vpir.reject.scope_escape
+
+37: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/scope_escape.vpir"
+37: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+37: Test timeout computed to be: 10000000
+ 37/158 Test  #37: vpir.reject.scope_escape ...................   Passed    0.94 sec
+test 38
+        Start  38: vpir.reject.store_constant_buffer
+
+38: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/store_constant_buffer.vpir"
+38: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+38: Test timeout computed to be: 10000000
+ 38/158 Test  #38: vpir.reject.store_constant_buffer ..........   Passed    1.36 sec
+test 39
+        Start  39: vpir.reject.type_mismatch
+
+39: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/type_mismatch.vpir"
+39: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+39: Test timeout computed to be: 10000000
+ 39/158 Test  #39: vpir.reject.type_mismatch ..................   Passed    1.45 sec
+test 40
+        Start  40: vpir.reject.unknown_op
+
+40: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/unknown_op.vpir"
+40: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+40: Test timeout computed to be: 10000000
+ 40/158 Test  #40: vpir.reject.unknown_op .....................   Passed    8.68 sec
+test 41
+        Start  41: vpir.reject.use_before_def
+
+41: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/use_before_def.vpir"
+41: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+41: Test timeout computed to be: 10000000
+ 41/158 Test  #41: vpir.reject.use_before_def .................   Passed    7.37 sec
+test 42
+        Start  42: vpir.reject.wave_size
+
+42: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "reject" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/bad/wave_size.vpir"
+42: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+42: Test timeout computed to be: 10000000
+ 42/158 Test  #42: vpir.reject.wave_size ......................   Passed    0.98 sec
+test 43
+        Start  43: vpir.fbfetch.deferred_light
+
+43: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "fbfetch" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/../../msl/tests/deferred_light_fs.vpir" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/../../msl/tests/deferred_light_fetched_fs.vpir"
+43: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+43: Test timeout computed to be: 10000000
+ 43/158 Test  #43: vpir.fbfetch.deferred_light ................   Passed    0.72 sec
+test 44
+        Start  44: vpir.fbfetch.compute_stage
+
+44: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "fbfetch" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/fbfetch/compute_stage.vpir"
+44: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+44: Test timeout computed to be: 10000000
+ 44/158 Test  #44: vpir.fbfetch.compute_stage .................   Passed   47.58 sec
+test 45
+        Start  45: vpir.fbfetch.depth_texture
+
+45: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "fbfetch" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/fbfetch/depth_texture.vpir"
+45: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+45: Test timeout computed to be: 10000000
+ 45/158 Test  #45: vpir.fbfetch.depth_texture .................   Passed    7.23 sec
+test 46
+        Start  46: vpir.fbfetch.filtered_sample
+
+46: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "fbfetch" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/fbfetch/filtered_sample.vpir"
+46: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+46: Test timeout computed to be: 10000000
+ 46/158 Test  #46: vpir.fbfetch.filtered_sample ...............   Passed    3.22 sec
+test 47
+        Start  47: vpir.fbfetch.not_own_pixel
+
+47: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "fbfetch" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/fbfetch/not_own_pixel.vpir"
+47: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+47: Test timeout computed to be: 10000000
+ 47/158 Test  #47: vpir.fbfetch.not_own_pixel .................   Passed    1.86 sec
+test 48
+        Start  48: vpir.fbfetch.offset_sample
+
+48: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "fbfetch" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/fbfetch/offset_sample.vpir"
+48: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+48: Test timeout computed to be: 10000000
+ 48/158 Test  #48: vpir.fbfetch.offset_sample .................   Passed    1.15 sec
+test 49
+        Start  49: vpir.optimize.cse_fold
+
+49: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests/vpir_test" "optimize" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/optimize/cse_fold.vpir" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/ir/tests/optimize/cse_fold.out"
+49: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/ir/tests
+49: Test timeout computed to be: 10000000
+ 49/158 Test  #49: vpir.optimize.cse_fold .....................   Passed    1.00 sec
+test 50
+        Start  50: vpmsl.golden.compute_loop
+
+50: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests/vpmsl_golden" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/compute_loop.vpir" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/compute_loop.metal"
+50: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests
+50: Test timeout computed to be: 10000000
+50: output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/compute_loop.metal; got:
+50: #include <metal_stdlib>
+50: using namespace metal;
+50: #ifndef VP_PSZ
+50: #define VP_PSZ point_size
+50: #endif
+50: 
+50: struct VpArgs {
+50:     const device uchar* data;
+50:     device uchar* histogram;
+50:     constant uchar* params;
+50: };
+50: 
+50: [[max_total_threads_per_threadgroup(64)]] kernel void vp_main(constant VpArgs& vp_args [[buffer(0)]],
+50:         uint3 in_gid [[thread_position_in_grid]],
+50:         uint in_lid [[thread_index_in_threadgroup]]) {
+50:     threadgroup uint4 vp_shared[16];
+50:     uint l0{};
+50:     uint l1{};
+50:     const uint v6 = *(constant uint*)(vp_args.params);
+50:     l0 = 0u;
+50:     l1 = 0u;
+50:     uint vp_guard0 = 0u;
+50:     while (true) {
+50:         if (++vp_guard0 > 8192u) break;
+50:         const uint v7 = l1;
+50:         const bool v8 = v7 >= v6;
+50:         if (v8) {
+50:             break;
+50:         }
+50:         const uint v9 = in_gid.x * v6;
+50:         const uint v10 = v9 + v7;
+50:         const uint v11 = v10 << 2u;
+50:         const uint v12 = *(const device uint*)(vp_args.data + v11);
+50:         const bool v13 = v12 == 0u;
+50:         if (v13) {
+50:             break;
+50:         }
+50:         const uint v14 = l0;
+50:         const uint v15 = v14 + v12;
+50:         l0 = v15;
+50:         const uint v16 = v7 + 1u;
+50:         l1 = v16;
+50:     }
+50:     const uint v17 = in_lid << 2u;
+50:     const uint v18 = l0;
+50:     *(threadgroup uint*)((threadgroup uchar*)vp_shared + v17) = v18;
+50:     threadgroup_barrier(mem_flags::mem_threadgroup);
+50:     const uint v20 = v18 & 63u;
+50:     const uint v21 = v20 << 2u;
+50:     atomic_fetch_add_explicit((device atomic_uint*)(vp_args.histogram + v21), 1u, memory_order_relaxed);
+50:     atomic_fetch_max_explicit((device atomic_uint*)(vp_args.histogram + 256u), v18, memory_order_relaxed);
+50:     uint v26;
+50:     do {
+50:         v26 = 0u;
+50:     } while (!atomic_compare_exchange_weak_explicit((device atomic_uint*)(vp_args.histogram + 260u), &v26, in_gid.x, memory_order_relaxed, memory_order_relaxed) && v26 == 0u);
+50: }
+ 50/158 Test  #50: vpmsl.golden.compute_loop ..................***Failed    3.38 sec
+output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/compute_loop.metal; got:
+#include <metal_stdlib>
+using namespace metal;
+#ifndef VP_PSZ
+#define VP_PSZ point_size
+#endif
+
+struct VpArgs {
+    const device uchar* data;
+    device uchar* histogram;
+    constant uchar* params;
+};
+
+[[max_total_threads_per_threadgroup(64)]] kernel void vp_main(constant VpArgs& vp_args [[buffer(0)]],
+        uint3 in_gid [[thread_position_in_grid]],
+        uint in_lid [[thread_index_in_threadgroup]]) {
+    threadgroup uint4 vp_shared[16];
+    uint l0{};
+    uint l1{};
+    const uint v6 = *(constant uint*)(vp_args.params);
+    l0 = 0u;
+    l1 = 0u;
+    uint vp_guard0 = 0u;
+    while (true) {
+        if (++vp_guard0 > 8192u) break;
+        const uint v7 = l1;
+        const bool v8 = v7 >= v6;
+        if (v8) {
+            break;
+        }
+        const uint v9 = in_gid.x * v6;
+        const uint v10 = v9 + v7;
+        const uint v11 = v10 << 2u;
+        const uint v12 = *(const device uint*)(vp_args.data + v11);
+        const bool v13 = v12 == 0u;
+        if (v13) {
+            break;
+        }
+        const uint v14 = l0;
+        const uint v15 = v14 + v12;
+        l0 = v15;
+        const uint v16 = v7 + 1u;
+        l1 = v16;
+    }
+    const uint v17 = in_lid << 2u;
+    const uint v18 = l0;
+    *(threadgroup uint*)((threadgroup uchar*)vp_shared + v17) = v18;
+    threadgroup_barrier(mem_flags::mem_threadgroup);
+    const uint v20 = v18 & 63u;
+    const uint v21 = v20 << 2u;
+    atomic_fetch_add_explicit((device atomic_uint*)(vp_args.histogram + v21), 1u, memory_order_relaxed);
+    atomic_fetch_max_explicit((device atomic_uint*)(vp_args.histogram + 256u), v18, memory_order_relaxed);
+    uint v26;
+    do {
+        v26 = 0u;
+    } while (!atomic_compare_exchange_weak_explicit((device atomic_uint*)(vp_args.histogram + 260u), &v26, in_gid.x, memory_order_relaxed, memory_order_relaxed) && v26 == 0u);
+}
+
+test 51
+        Start  51: vpmsl.golden.deferred_light_fetched_fs
+
+51: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests/vpmsl_golden" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/deferred_light_fetched_fs.vpir" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/deferred_light_fetched_fs.metal"
+51: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests
+51: Test timeout computed to be: 10000000
+51: output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/deferred_light_fetched_fs.metal; got:
+51: #include <metal_stdlib>
+51: using namespace metal;
+51: #ifndef VP_PSZ
+51: #define VP_PSZ point_size
+51: #endif
+51: 
+51: struct VpArgs {
+51:     constant uchar* light;
+51: };
+51: 
+51: struct VpOut {
+51:     half4 lit [[color(3)]];
+51: };
+51: 
+51: fragment VpOut vp_main(constant VpArgs& vp_args [[buffer(0)]],
+51:         float4 in_frag_pos [[position]],
+51:         float4 vp_fb0 [[color(0)]],
+51:         float4 vp_fb1 [[color(1)]],
+51:         float4 vp_fb2 [[color(2)]]) {
+51:     VpOut vp_out;
+51:     const float3 v10 = vp_fb1.xyz;
+51:     const float3 v13 = fma(v10, float3(2.0f), float3(-1.0f));
+51:     const float3 v14 = normalize(v13);
+51:     const float4 v16 = *(constant float4*)(vp_args.light);
+51:     const float3 v17 = v16.xyz;
+51:     const float v18 = dot(v14, v17);
+51:     const float v19 = max(v18, 0.0f);
+51:     const float v21 = v19 * v16.w;
+51:     const float3 v24 = vp_fb0.xyz;
+51:     const float3 v25 = v24 * float3(*(constant packed_float3*)(vp_args.light + 16u));
+51:     const float3 v26 = float3(v21);
+51:     const float3 v27 = v25 * v26;
+51:     const float4 v29 = *(constant float4*)(vp_args.light + 32u);
+51:     const float v32 = vp_fb2.x * v29.w;
+51:     const float v33 = -v32;
+51:     const float v34 = exp2(v33);
+51:     const float3 v35 = v29.xyz;
+51:     const float3 v36 = float3(v34);
+51:     const float3 v37 = mix(v35, v27, v36);
+51:     const float4 v39 = float4(v37, vp_fb0.w);
+51:     const half4 v40 = half4(v39);
+51:     vp_out.lit = v40;
+51:     return vp_out;
+51: }
+ 51/158 Test  #51: vpmsl.golden.deferred_light_fetched_fs .....***Failed    6.35 sec
+output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/deferred_light_fetched_fs.metal; got:
+#include <metal_stdlib>
+using namespace metal;
+#ifndef VP_PSZ
+#define VP_PSZ point_size
+#endif
+
+struct VpArgs {
+    constant uchar* light;
+};
+
+struct VpOut {
+    half4 lit [[color(3)]];
+};
+
+fragment VpOut vp_main(constant VpArgs& vp_args [[buffer(0)]],
+        float4 in_frag_pos [[position]],
+        float4 vp_fb0 [[color(0)]],
+        float4 vp_fb1 [[color(1)]],
+        float4 vp_fb2 [[color(2)]]) {
+    VpOut vp_out;
+    const float3 v10 = vp_fb1.xyz;
+    const float3 v13 = fma(v10, float3(2.0f), float3(-1.0f));
+    const float3 v14 = normalize(v13);
+    const float4 v16 = *(constant float4*)(vp_args.light);
+    const float3 v17 = v16.xyz;
+    const float v18 = dot(v14, v17);
+    const float v19 = max(v18, 0.0f);
+    const float v21 = v19 * v16.w;
+    const float3 v24 = vp_fb0.xyz;
+    const float3 v25 = v24 * float3(*(constant packed_float3*)(vp_args.light + 16u));
+    const float3 v26 = float3(v21);
+    const float3 v27 = v25 * v26;
+    const float4 v29 = *(constant float4*)(vp_args.light + 32u);
+    const float v32 = vp_fb2.x * v29.w;
+    const float v33 = -v32;
+    const float v34 = exp2(v33);
+    const float3 v35 = v29.xyz;
+    const float3 v36 = float3(v34);
+    const float3 v37 = mix(v35, v27, v36);
+    const float4 v39 = float4(v37, vp_fb0.w);
+    const half4 v40 = half4(v39);
+    vp_out.lit = v40;
+    return vp_out;
+}
+
+test 52
+        Start  52: vpmsl.golden.deferred_light_fs
+
+52: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests/vpmsl_golden" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/deferred_light_fs.vpir" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/deferred_light_fs.metal"
+52: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests
+52: Test timeout computed to be: 10000000
+52: output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/deferred_light_fs.metal; got:
+52: #include <metal_stdlib>
+52: using namespace metal;
+52: #ifndef VP_PSZ
+52: #define VP_PSZ point_size
+52: #endif
+52: 
+52: struct VpArgs {
+52:     constant uchar* light;
+52:     texture2d<float> gbuf_albedo;
+52:     texture2d<float> gbuf_normal;
+52:     texture2d<float> gbuf_depth;
+52:     sampler point_clamp;
+52: };
+52: 
+52: struct VpOut {
+52:     half4 lit [[color(3)]];
+52: };
+52: 
+52: fragment VpOut vp_main(constant VpArgs& vp_args [[buffer(0)]],
+52:         float4 in_frag_pos [[position]]) {
+52:     VpOut vp_out;
+52:     const float2 v1 = in_frag_pos.xy;
+52:     const uint2 v2 = uint2(v1);
+52:     const float4 v3 = vp_args.gbuf_albedo.read(v2);
+52:     const float4 v4 = vp_args.gbuf_normal.read(v2);
+52:     const uint2 v5 = uint2(vp_args.gbuf_depth.get_width(), vp_args.gbuf_depth.get_height());
+52:     const float2 v6 = float2(v5);
+52:     const float2 v7 = v1 / v6;
+52:     const float4 v9 = vp_args.gbuf_depth.sample(vp_args.point_clamp, v7, level(0.0f));
+52:     const float3 v10 = v4.xyz;
+52:     const float3 v13 = fma(v10, float3(2.0f), float3(-1.0f));
+52:     const float3 v14 = normalize(v13);
+52:     const float4 v16 = *(constant float4*)(vp_args.light);
+52:     const float3 v17 = v16.xyz;
+52:     const float v18 = dot(v14, v17);
+52:     const float v19 = max(v18, 0.0f);
+52:     const float v21 = v19 * v16.w;
+52:     const float3 v24 = v3.xyz;
+52:     const float3 v25 = v24 * float3(*(constant packed_float3*)(vp_args.light + 16u));
+52:     const float3 v26 = float3(v21);
+52:     const float3 v27 = v25 * v26;
+52:     const float4 v29 = *(constant float4*)(vp_args.light + 32u);
+52:     const float v32 = v9.x * v29.w;
+52:     const float v33 = -v32;
+52:     const float v34 = exp2(v33);
+52:     const float3 v35 = v29.xyz;
+52:     const float3 v36 = float3(v34);
+52:     const float3 v37 = mix(v35, v27, v36);
+52:     const float4 v39 = float4(v37, v3.w);
+52:     const half4 v40 = half4(v39);
+52:     vp_out.lit = v40;
+52:     return vp_out;
+52: }
+ 52/158 Test  #52: vpmsl.golden.deferred_light_fs .............***Failed    5.60 sec
+output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/deferred_light_fs.metal; got:
+#include <metal_stdlib>
+using namespace metal;
+#ifndef VP_PSZ
+#define VP_PSZ point_size
+#endif
+
+struct VpArgs {
+    constant uchar* light;
+    texture2d<float> gbuf_albedo;
+    texture2d<float> gbuf_normal;
+    texture2d<float> gbuf_depth;
+    sampler point_clamp;
+};
+
+struct VpOut {
+    half4 lit [[color(3)]];
+};
+
+fragment VpOut vp_main(constant VpArgs& vp_args [[buffer(0)]],
+        float4 in_frag_pos [[position]]) {
+    VpOut vp_out;
+    const float2 v1 = in_frag_pos.xy;
+    const uint2 v2 = uint2(v1);
+    const float4 v3 = vp_args.gbuf_albedo.read(v2);
+    const float4 v4 = vp_args.gbuf_normal.read(v2);
+    const uint2 v5 = uint2(vp_args.gbuf_depth.get_width(), vp_args.gbuf_depth.get_height());
+    const float2 v6 = float2(v5);
+    const float2 v7 = v1 / v6;
+    const float4 v9 = vp_args.gbuf_depth.sample(vp_args.point_clamp, v7, level(0.0f));
+    const float3 v10 = v4.xyz;
+    const float3 v13 = fma(v10, float3(2.0f), float3(-1.0f));
+    const float3 v14 = normalize(v13);
+    const float4 v16 = *(constant float4*)(vp_args.light);
+    const float3 v17 = v16.xyz;
+    const float v18 = dot(v14, v17);
+    const float v19 = max(v18, 0.0f);
+    const float v21 = v19 * v16.w;
+    const float3 v24 = v3.xyz;
+    const float3 v25 = v24 * float3(*(constant packed_float3*)(vp_args.light + 16u));
+    const float3 v26 = float3(v21);
+    const float3 v27 = v25 * v26;
+    const float4 v29 = *(constant float4*)(vp_args.light + 32u);
+    const float v32 = v9.x * v29.w;
+    const float v33 = -v32;
+    const float v34 = exp2(v33);
+    const float3 v35 = v29.xyz;
+    const float3 v36 = float3(v34);
+    const float3 v37 = mix(v35, v27, v36);
+    const float4 v39 = float4(v37, v3.w);
+    const half4 v40 = half4(v39);
+    vp_out.lit = v40;
+    return vp_out;
+}
+
+test 53
+        Start  53: vpmsl.golden.heavy_lighting_fs
+
+53: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests/vpmsl_golden" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/heavy_lighting_fs.vpir" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/heavy_lighting_fs.metal"
+53: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests
+53: Test timeout computed to be: 10000000
+53: output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/heavy_lighting_fs.metal; got:
+53: #include <metal_stdlib>
+53: using namespace metal;
+53: #ifndef VP_PSZ
+53: #define VP_PSZ point_size
+53: #endif
+53: 
+53: struct VpArgs {
+53:     constant uchar* frame;
+53:     constant uchar* lights;
+53:     texture2d<float> albedo_map;
+53:     texture2d<float> normal_map;
+53:     texture2d<float> material_map;
+53:     texturecube<float> env_map;
+53:     depth2d_array<float> shadow_map;
+53:     sampler aniso;
+53:     sampler shadow_cmp;
+53: };
+53: 
+53: struct VpIn {
+53:     float3 world_pos [[user(loc0)]];
+53:     float3 normal_in [[user(loc1)]];
+53:     float4 tangent_in [[user(loc2)]];
+53:     float2 uv [[user(loc3)]];
+53:     float view_depth [[user(loc4)]];
+53: };
+53: 
+53: struct VpOut {
+53:     float4 color [[color(0)]];
+53: };
+53: 
+53: fragment VpOut vp_main(VpIn vp_in [[stage_in]],
+53:         constant VpArgs& vp_args [[buffer(0)]]) {
+53:     VpOut vp_out;
+53:     float3 l0{};
+53:     float3 l1{};
+53:     uint l2{};
+53:     float l3{};
+53:     uint l4{};
+53:     uint l5{};
+53:     const float4 v5 = vp_args.albedo_map.sample(vp_args.aniso, vp_in.uv);
+53:     const float4 v6 = vp_args.normal_map.sample(vp_args.aniso, vp_in.uv);
+53:     const float4 v7 = vp_args.material_map.sample(vp_args.aniso, vp_in.uv);
+53:     const float2 v11 = v6.xy;
+53:     const float2 v15 = fma(v11, float2(2.0f), float2(-1.0f));
+53:     const float v16 = dot(v15, v15);
+53:     const float v17 = 1.0f - v16;
+53:     const float v18 = max(v17, 0.0f);
+53:     const float v19 = sqrt(v18);
+53:     const float3 v20 = normalize(vp_in.normal_in);
+53:     const float3 v21 = vp_in.tangent_in.xyz;
+53:     const float3 v22 = normalize(v21);
+53:     const float3 v24 = v20.yzx;
+53:     const float3 v25 = v22.zxy;
+53:     const float3 v26 = v20.zxy;
+53:     const float3 v27 = v22.yzx;
+53:     const float3 v28 = v24 * v25;
+53:     const float3 v29 = v26 * v27;
+53:     const float3 v30 = v28 - v29;
+53:     const float3 v31 = float3(vp_in.tangent_in.w);
+53:     const float3 v32 = v30 * v31;
+53:     const float3 v34 = float3(v15.x);
+53:     const float3 v35 = v22 * v34;
+53:     const float3 v37 = float3(v15.y);
+53:     const float3 v38 = v32 * v37;
+53:     const float3 v39 = v35 + v38;
+53:     const float3 v40 = float3(v19);
+53:     const float3 v41 = v20 * v40;
+53:     const float3 v42 = v39 + v41;
+53:     const float3 v43 = normalize(v42);
+53:     const float v47 = v7.y * v7.y;
+53:     const float v48 = 1.0f - v47;
+53:     const float v50 = fma(v48, 254.0f, 2.0f);
+53:     const float v52 = fma(v50, 0.125f, 1.0f);
+53:     const float3 v53 = v5.xyz;
+53:     const float4 v55 = *(constant float4*)(vp_args.frame);
+53:     const float3 v56 = v55.xyz;
+53:     const float3 v57 = v56 - vp_in.world_pos;
+53:     const float3 v58 = normalize(v57);
+53:     const float3 v60 = float3(v7.z);
+53:     const float3 v61 = mix(float3(0.04f), v53, v60);
+53:     const float v62 = 1.0f - v7.z;
+53:     const float3 v63 = float3(v62);
+53:     const float3 v64 = v53 * v63;
+53:     const float3 v65 = float3(0.0f);
+53:     l0 = v65;
+53:     l1 = v65;
+53:     const float4 v67 = *(constant float4*)(vp_args.frame + 16u);
+53:     const float4 v69 = *(constant float4*)(vp_args.frame + 32u);
+53:     const float3 v70 = v67.xyz;
+53:     const float3 v71 = -v70;
+53:     const float3 v72 = normalize(v71);
+53:     const float4 v74 = *(constant float4*)(vp_args.frame + 176u);
+53:     const bool v76 = vp_in.view_depth > v74.x;
+53:     const uint v78 = v76 ? 1u : 0u;
+53:     l5 = v78;
+53:     l3 = 0.0f;
+53:     const float4 v79 = float4(vp_in.world_pos, 1.0f);
+53:     const uint v80 = l5;
+53:     const uint v82 = v80 * 64u;
+53:     const uint v84 = v82 + 48u;
+53:     const float v86 = dot((*(constant float4*)(vp_args.frame + v84)), v79);
+53:     const uint v87 = v84 + 16u;
+53:     const float v89 = dot((*(constant float4*)(vp_args.frame + v87)), v79);
+53:     const uint v90 = v84 + 32u;
+53:     const float v92 = dot((*(constant float4*)(vp_args.frame + v90)), v79);
+53:     const float v93 = float(v80);
+53:     const float v96 = v92 - v74.z;
+53:     l4 = 0u;
+53:     uint vp_guard0 = 0u;
+53:     while (true) {
+53:         if (++vp_guard0 > 8192u) break;
+53:         const uint v97 = l4;
+53:         const bool v99 = v97 >= 9u;
+53:         if (v99) {
+53:             break;
+53:         }
+53:         const uint v101 = v97 % 3u;
+53:         const float v102 = float(v101);
+53:         const float v103 = v102 - 1.0f;
+53:         const uint v104 = v97 / 3u;
+53:         const float v105 = float(v104);
+53:         const float v106 = v105 - 1.0f;
+53:         const float v107 = fma(v103, v74.y, v86);
+53:         const float v108 = fma(v106, v74.y, v89);
+53:         const float3 v109 = float3(v107, v108, v93);
+53:         const float v110 = vp_args.shadow_map.sample_compare(vp_args.shadow_cmp, v109.xy, uint(rint(v109.z)), v96, level(0.0f));
+53:         const float v111 = l3;
+53:         const float v112 = v111 + v110;
+53:         l3 = v112;
+53:         const uint v113 = v97 + 1u;
+53:         l4 = v113;
+53:     }
+53:     const float v114 = l3;
+53:     const float v116 = v114 * 0.11111111f;
+53:     const float3 v117 = v69.xyz;
+53:     const float v119 = v67.w * v116;
+53:     const float3 v120 = float3(v119);
+53:     const float3 v121 = v117 * v120;
+53:     const float v122 = dot(v43, v72);
+53:     const float v123 = saturate(v122);
+53:     const float3 v124 = v72 + v58;
+53:     const float3 v125 = normalize(v124);
+53:     const float v126 = dot(v43, v125);
+53:     const float v127 = saturate(v126);
+53:     const float v128 = pow(v127, v50);
+53:     const float v129 = v128 * v52;
+53:     const float3 v130 = float3(v123);
+53:     const float3 v131 = v121 * v130;
+53:     const float3 v132 = l0;
+53:     const float3 v133 = fma(v131, v64, v132);
+53:     l0 = v133;
+53:     const float3 v134 = l1;
+53:     const float3 v135 = v131 * v61;
+53:     const float3 v136 = float3(v129);
+53:     const float3 v137 = fma(v135, v136, v134);
+53:     l1 = v137;
+53:     const uint4 v139 = *(constant uint4*)(vp_args.frame + 192u);
+53:     l2 = 0u;
+53:     uint vp_guard1 = 0u;
+53:     while (true) {
+53:         if (++vp_guard1 > 8192u) break;
+53:         const uint v141 = l2;
+53:         const bool v142 = v141 >= v139.x;
+53:         if (v142) {
+53:             break;
+53:         }
+53:         const uint v143 = v141 * 32u;
+53:         const float4 v144 = *(constant float4*)(vp_args.lights + v143);
+53:         const uint v145 = v143 + 16u;
+53:         const float4 v146 = *(constant float4*)(vp_args.lights + v145);
+53:         const float3 v147 = v144.xyz;
+53:         const float3 v149 = v147 - vp_in.world_pos;
+53:         const float v150 = dot(v149, v149);
+53:         const float v151 = rsqrt(v150);
+53:         const float3 v152 = float3(v151);
+53:         const float3 v153 = v149 * v152;
+53:         const float v154 = v144.w * v144.w;
+53:         const float v155 = 1.0f / v154;
+53:         const float v156 = v150 * v155;
+53:         const float v157 = v156 * v156;
+53:         const float v158 = 1.0f - v157;
+53:         const float v159 = saturate(v158);
+53:         const float v160 = v159 * v159;
+53:         const float v161 = v150 + 1.0f;
+53:         const float v162 = 1.0f / v161;
+53:         const float v163 = v160 * v162;
+53:         const float3 v164 = v146.xyz;
+53:         const float v166 = v146.w * v163;
+53:         const float3 v167 = float3(v166);
+53:         const float3 v168 = v164 * v167;
+53:         const float v169 = dot(v43, v153);
+53:         const float v170 = saturate(v169);
+53:         const float3 v171 = v153 + v58;
+53:         const float3 v172 = normalize(v171);
+53:         const float v173 = dot(v43, v172);
+53:         const float v174 = saturate(v173);
+53:         const float v175 = pow(v174, v50);
+53:         const float v176 = v175 * v52;
+53:         const float3 v177 = float3(v170);
+53:         const float3 v178 = v168 * v177;
+53:         const float3 v179 = l0;
+53:         const float3 v180 = fma(v178, v64, v179);
+53:         l0 = v180;
+53:         const float3 v181 = l1;
+53:         const float3 v182 = v178 * v61;
+53:         const float3 v183 = float3(v176);
+53:         const float3 v184 = fma(v182, v183, v181);
+53:         l1 = v184;
+53:         const uint v185 = v141 + 1u;
+53:         l2 = v185;
+53:     }
+53:     l2 = 0u;
+53:     uint vp_guard2 = 0u;
+53:     while (true) {
+53:         if (++vp_guard2 > 8192u) break;
+53:         const uint v187 = l2;
+53:         const bool v188 = v187 >= v139.y;
+53:         if (v188) {
+53:             break;
+53:         }
+53:         const uint v189 = v187 * 48u;
+53:         const uint v191 = v189 + 1024u;
+53:         const float4 v192 = *(constant float4*)(vp_args.lights + v191);
+53:         const uint v193 = v191 + 16u;
+53:         const float4 v194 = *(constant float4*)(vp_args.lights + v193);
+53:         const uint v195 = v191 + 32u;
+53:         const float4 v196 = *(constant float4*)(vp_args.lights + v195);
+53:         const float3 v197 = v192.xyz;
+53:         const float3 v199 = v197 - vp_in.world_pos;
+53:         const float v200 = dot(v199, v199);
+53:         const float v201 = rsqrt(v200);
+53:         const float3 v202 = float3(v201);
+53:         const float3 v203 = v199 * v202;
+53:         const float v204 = v192.w * v192.w;
+53:         const float v205 = 1.0f / v204;
+53:         const float v206 = v200 * v205;
+53:         const float v207 = v206 * v206;
+53:         const float v208 = 1.0f - v207;
+53:         const float v209 = saturate(v208);
+53:         const float v210 = v209 * v209;
+53:         const float v211 = v200 + 1.0f;
+53:         const float v212 = 1.0f / v211;
+53:         const float v213 = v210 * v212;
+53:         const float3 v214 = -v203;
+53:         const float3 v215 = v194.xyz;
+53:         const float v216 = dot(v214, v215);
+53:         const float v218 = v216 - v194.w;
+53:         const float v221 = v196.w - v194.w;
+53:         const float v222 = v218 / v221;
+53:         const float v223 = saturate(v222);
+53:         const float3 v224 = v196.xyz;
+53:         const float v225 = v213 * v223;
+53:         const float3 v226 = float3(v225);
+53:         const float3 v227 = v224 * v226;
+53:         const float v228 = dot(v43, v203);
+53:         const float v229 = saturate(v228);
+53:         const float3 v230 = v203 + v58;
+53:         const float3 v231 = normalize(v230);
+53:         const float v232 = dot(v43, v231);
+53:         const float v233 = saturate(v232);
+53:         const float v234 = pow(v233, v50);
+53:         const float v235 = v234 * v52;
+53:         const float3 v236 = float3(v229);
+53:         const float3 v237 = v227 * v236;
+53:         const float3 v238 = l0;
+53:         const float3 v239 = fma(v237, v64, v238);
+53:         l0 = v239;
+53:         const float3 v240 = l1;
+53:         const float3 v241 = v237 * v61;
+53:         const float3 v242 = float3(v235);
+53:         const float3 v243 = fma(v241, v242, v240);
+53:         l1 = v243;
+53:         const uint v244 = v187 + 1u;
+53:         l2 = v244;
+53:     }
+53:     l2 = 0u;
+53:     uint vp_guard3 = 0u;
+53:     while (true) {
+53:         if (++vp_guard3 > 8192u) break;
+53:         const uint v246 = l2;
+53:         const bool v247 = v246 >= v139.z;
+53:         if (v247) {
+53:             break;
+53:         }
+53:         const uint v248 = v246 * 32u;
+53:         const uint v250 = v248 + 2048u;
+53:         const float4 v251 = *(constant float4*)(vp_args.lights + v250);
+53:         const uint v252 = v250 + 16u;
+53:         const float4 v253 = *(constant float4*)(vp_args.lights + v252);
+53:         const float3 v254 = v251.xyz;
+53:         const float3 v255 = -v254;
+53:         const float3 v256 = normalize(v255);
+53:         const float3 v257 = v253.xyz;
+53:         const float3 v259 = float3(v253.w);
+53:         const float3 v260 = v257 * v259;
+53:         const float v261 = dot(v43, v256);
+53:         const float v262 = saturate(v261);
+53:         const float3 v263 = v256 + v58;
+53:         const float3 v264 = normalize(v263);
+53:         const float v265 = dot(v43, v264);
+53:         const float v266 = saturate(v265);
+53:         const float v267 = pow(v266, v50);
+53:         const float v268 = v267 * v52;
+53:         const float3 v269 = float3(v262);
+53:         const float3 v270 = v260 * v269;
+53:         const float3 v271 = l0;
+53:         const float3 v272 = fma(v270, v64, v271);
+53:         l0 = v272;
+53:         const float3 v273 = l1;
+53:         const float3 v274 = v270 * v61;
+53:         const float3 v275 = float3(v268);
+53:         const float3 v276 = fma(v274, v275, v273);
+53:         l1 = v276;
+53:         const uint v277 = v246 + 1u;
+53:         l2 = v277;
+53:     }
+53:     l2 = 0u;
+53:     uint vp_guard4 = 0u;
+53:     while (true) {
+53:         if (++vp_guard4 > 8192u) break;
+53:         const uint v279 = l2;
+53:         const bool v280 = v279 >= v139.w;
+53:         if (v280) {
+53:             break;
+53:         }
+53:         const uint v281 = v279 * 48u;
+53:         const uint v283 = v281 + 2560u;
+53:         const float4 v284 = *(constant float4*)(vp_args.lights + v283);
+53:         const uint v285 = v283 + 16u;
+53:         const float4 v286 = *(constant float4*)(vp_args.lights + v285);
+53:         const uint v287 = v283 + 32u;
+53:         const float4 v288 = *(constant float4*)(vp_args.lights + v287);
+53:         const float3 v289 = v284.xyz;
+53:         const float3 v290 = v289 - vp_in.world_pos;
+53:         const float v291 = length(v290);
+53:         const float v293 = v291 / v284.w;
+53:         const float v294 = 1.0f - v293;
+53:         const float v295 = saturate(v294);
+53:         const float3 v296 = v288.xyz;
+53:         const float v297 = dot(v43, v296);
+53:         const float v299 = fma(v297, 0.5f, 0.5f);
+53:         const float v300 = max(v299, 0.0f);
+53:         const float v301 = v295 * v300;
+53:         const float v303 = v301 * v288.w;
+53:         const float3 v304 = l0;
+53:         const float3 v305 = v286.xyz;
+53:         const float3 v306 = v305 * v64;
+53:         const float3 v307 = float3(v303);
+53:         const float3 v308 = fma(v306, v307, v304);
+53:         l0 = v308;
+53:         const uint v309 = v279 + 1u;
+53:         l2 = v309;
+53:     }
+53:     const float4 v311 = *(constant float4*)(vp_args.frame + 208u);
+53:     const float3 v312 = v311.xyz;
+53:     const float v313 = dot(v58, v43);
+53:     const float v314 = 2.0f * v313;
+53:     const float3 v315 = float3(v314);
+53:     const float3 v316 = v43 * v315;
+53:     const float3 v317 = v316 - v58;
+53:     const float4 v319 = *(constant float4*)(vp_args.frame + 240u);
+53:     const float v321 = v7.y * v319.y;
+53:     const float4 v322 = vp_args.env_map.sample(vp_args.aniso, v317, level(v321));
+53:     const float v323 = saturate(v313);
+53:     const float v324 = 1.0f - v323;
+53:     const float v326 = pow(v324, 5.0f);
+53:     const float3 v327 = float3(1.0f);
+53:     const float3 v328 = float3(v326);
+53:     const float3 v329 = mix(v61, v327, v328);
+53:     const float3 v330 = v312 * v64;
+53:     const float3 v331 = float3(v7.x);
+53:     const float3 v332 = l0;
+53:     const float3 v333 = fma(v330, v331, v332);
+53:     const float3 v334 = v322.xyz;
+53:     const float3 v335 = v334 * v329;
+53:     const float3 v337 = l1;
+53:     const float3 v338 = fma(v335, v331, v337);
+53:     const float3 v339 = v333 + v338;
+53:     const float4 v341 = *(constant float4*)(vp_args.frame + 224u);
+53:     const float v343 = vp_in.view_depth * v341.w;
+53:     const float v344 = -v343;
+53:     const float v345 = exp2(v344);
+53:     const float3 v346 = v341.xyz;
+53:     const float3 v347 = float3(v345);
+53:     const float3 v348 = mix(v346, v339, v347);
+53:     const float3 v350 = float3(v319.x);
+53:     const float3 v351 = v348 * v350;
+53:     const float3 v352 = v351 + v327;
+53:     const float3 v353 = v351 / v352;
+53:     const float4 v355 = float4(v353, v5.w);
+53:     vp_out.color = v355;
+53:     return vp_out;
+53: }
+ 53/158 Test  #53: vpmsl.golden.heavy_lighting_fs .............***Failed    3.47 sec
+output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/heavy_lighting_fs.metal; got:
+#include <metal_stdlib>
+using namespace metal;
+#ifndef VP_PSZ
+#define VP_PSZ point_size
+#endif
+
+struct VpArgs {
+    constant uchar* frame;
+    constant uchar* lights;
+    texture2d<float> albedo_map;
+    texture2d<float> normal_map;
+    texture2d<float> material_map;
+    texturecube<float> env_map;
+    depth2d_array<float> shadow_map;
+    sampler aniso;
+    sampler shadow_cmp;
+};
+
+struct VpIn {
+    float3 world_pos [[user(loc0)]];
+    float3 normal_in [[user(loc1)]];
+    float4 tangent_in [[user(loc2)]];
+    float2 uv [[user(loc3)]];
+    float view_depth [[user(loc4)]];
+};
+
+struct VpOut {
+    float4 color [[color(0)]];
+};
+
+fragment VpOut vp_main(VpIn vp_in [[stage_in]],
+        constant VpArgs& vp_args [[buffer(0)]]) {
+    VpOut vp_out;
+    float3 l0{};
+    float3 l1{};
+    uint l2{};
+    float l3{};
+    uint l4{};
+    uint l5{};
+    const float4 v5 = vp_args.albedo_map.sample(vp_args.aniso, vp_in.uv);
+    const float4 v6 = vp_args.normal_map.sample(vp_args.aniso, vp_in.uv);
+    const float4 v7 = vp_args.material_map.sample(vp_args.aniso, vp_in.uv);
+    const float2 v11 = v6.xy;
+    const float2 v15 = fma(v11, float2(2.0f), float2(-1.0f));
+    const float v16 = dot(v15, v15);
+    const float v17 = 1.0f - v16;
+    const float v18 = max(v17, 0.0f);
+    const float v19 = sqrt(v18);
+    const float3 v20 = normalize(vp_in.normal_in);
+    const float3 v21 = vp_in.tangent_in.xyz;
+    const float3 v22 = normalize(v21);
+    const float3 v24 = v20.yzx;
+    const float3 v25 = v22.zxy;
+    const float3 v26 = v20.zxy;
+    const float3 v27 = v22.yzx;
+    const float3 v28 = v24 * v25;
+    const float3 v29 = v26 * v27;
+    const float3 v30 = v28 - v29;
+    const float3 v31 = float3(vp_in.tangent_in.w);
+    const float3 v32 = v30 * v31;
+    const float3 v34 = float3(v15.x);
+    const float3 v35 = v22 * v34;
+    const float3 v37 = float3(v15.y);
+    const float3 v38 = v32 * v37;
+    const float3 v39 = v35 + v38;
+    const float3 v40 = float3(v19);
+    const float3 v41 = v20 * v40;
+    const float3 v42 = v39 + v41;
+    const float3 v43 = normalize(v42);
+    const float v47 = v7.y * v7.y;
+    const float v48 = 1.0f - v47;
+    const float v50 = fma(v48, 254.0f, 2.0f);
+    const float v52 = fma(v50, 0.125f, 1.0f);
+    const float3 v53 = v5.xyz;
+    const float4 v55 = *(constant float4*)(vp_args.frame);
+    const float3 v56 = v55.xyz;
+    const float3 v57 = v56 - vp_in.world_pos;
+    const float3 v58 = normalize(v57);
+    const float3 v60 = float3(v7.z);
+    const float3 v61 = mix(float3(0.04f), v53, v60);
+    const float v62 = 1.0f - v7.z;
+    const float3 v63 = float3(v62);
+    const float3 v64 = v53 * v63;
+    const float3 v65 = float3(0.0f);
+    l0 = v65;
+    l1 = v65;
+    const float4 v67 = *(constant float4*)(vp_args.frame + 16u);
+    const float4 v69 = *(constant float4*)(vp_args.frame + 32u);
+    const float3 v70 = v67.xyz;
+    const float3 v71 = -v70;
+    const float3 v72 = normalize(v71);
+    const float4 v74 = *(constant float4*)(vp_args.frame + 176u);
+    const bool v76 = vp_in.view_depth > v74.x;
+    const uint v78 = v76 ? 1u : 0u;
+    l5 = v78;
+    l3 = 0.0f;
+    const float4 v79 = float4(vp_in.world_pos, 1.0f);
+    const uint v80 = l5;
+    const uint v82 = v80 * 64u;
+    const uint v84 = v82 + 48u;
+    const float v86 = dot((*(constant float4*)(vp_args.frame + v84)), v79);
+    const uint v87 = v84 + 16u;
+    const float v89 = dot((*(constant float4*)(vp_args.frame + v87)), v79);
+    const uint v90 = v84 + 32u;
+    const float v92 = dot((*(constant float4*)(vp_args.frame + v90)), v79);
+    const float v93 = float(v80);
+    const float v96 = v92 - v74.z;
+    l4 = 0u;
+    uint vp_guard0 = 0u;
+    while (true) {
+        if (++vp_guard0 > 8192u) break;
+        const uint v97 = l4;
+        const bool v99 = v97 >= 9u;
+        if (v99) {
+            break;
+        }
+        const uint v101 = v97 % 3u;
+        const float v102 = float(v101);
+        const float v103 = v102 - 1.0f;
+        const uint v104 = v97 / 3u;
+        const float v105 = float(v104);
+        const float v106 = v105 - 1.0f;
+        const float v107 = fma(v103, v74.y, v86);
+        const float v108 = fma(v106, v74.y, v89);
+        const float3 v109 = float3(v107, v108, v93);
+        const float v110 = vp_args.shadow_map.sample_compare(vp_args.shadow_cmp, v109.xy, uint(rint(v109.z)), v96, level(0.0f));
+        const float v111 = l3;
+        const float v112 = v111 + v110;
+        l3 = v112;
+        const uint v113 = v97 + 1u;
+        l4 = v113;
+    }
+    const float v114 = l3;
+    const float v116 = v114 * 0.11111111f;
+    const float3 v117 = v69.xyz;
+    const float v119 = v67.w * v116;
+    const float3 v120 = float3(v119);
+    const float3 v121 = v117 * v120;
+    const float v122 = dot(v43, v72);
+    const float v123 = saturate(v122);
+    const float3 v124 = v72 + v58;
+    const float3 v125 = normalize(v124);
+    const float v126 = dot(v43, v125);
+    const float v127 = saturate(v126);
+    const float v128 = pow(v127, v50);
+    const float v129 = v128 * v52;
+    const float3 v130 = float3(v123);
+    const float3 v131 = v121 * v130;
+    const float3 v132 = l0;
+    const float3 v133 = fma(v131, v64, v132);
+    l0 = v133;
+    const float3 v134 = l1;
+    const float3 v135 = v131 * v61;
+    const float3 v136 = float3(v129);
+    const float3 v137 = fma(v135, v136, v134);
+    l1 = v137;
+    const uint4 v139 = *(constant uint4*)(vp_args.frame + 192u);
+    l2 = 0u;
+    uint vp_guard1 = 0u;
+    while (true) {
+        if (++vp_guard1 > 8192u) break;
+        const uint v141 = l2;
+        const bool v142 = v141 >= v139.x;
+        if (v142) {
+            break;
+        }
+        const uint v143 = v141 * 32u;
+        const float4 v144 = *(constant float4*)(vp_args.lights + v143);
+        const uint v145 = v143 + 16u;
+        const float4 v146 = *(constant float4*)(vp_args.lights + v145);
+        const float3 v147 = v144.xyz;
+        const float3 v149 = v147 - vp_in.world_pos;
+        const float v150 = dot(v149, v149);
+        const float v151 = rsqrt(v150);
+        const float3 v152 = float3(v151);
+        const float3 v153 = v149 * v152;
+        const float v154 = v144.w * v144.w;
+        const float v155 = 1.0f / v154;
+        const float v156 = v150 * v155;
+        const float v157 = v156 * v156;
+        const float v158 = 1.0f - v157;
+        const float v159 = saturate(v158);
+        const float v160 = v159 * v159;
+        const float v161 = v150 + 1.0f;
+        const float v162 = 1.0f / v161;
+        const float v163 = v160 * v162;
+        const float3 v164 = v146.xyz;
+        const float v166 = v146.w * v163;
+        const float3 v167 = float3(v166);
+        const float3 v168 = v164 * v167;
+        const float v169 = dot(v43, v153);
+        const float v170 = saturate(v169);
+        const float3 v171 = v153 + v58;
+        const float3 v172 = normalize(v171);
+        const float v173 = dot(v43, v172);
+        const float v174 = saturate(v173);
+        const float v175 = pow(v174, v50);
+        const float v176 = v175 * v52;
+        const float3 v177 = float3(v170);
+        const float3 v178 = v168 * v177;
+        const float3 v179 = l0;
+        const float3 v180 = fma(v178, v64, v179);
+        l0 = v180;
+        const float3 v181 = l1;
+        const float3 v182 = v178 * v61;
+        const float3 v183 = float3(v176);
+        const float3 v184 = fma(v182, v183, v181);
+        l1 = v184;
+        const uint v185 = v141 + 1u;
+        l2 = v185;
+    }
+    l2 = 0u;
+    uint vp_guard2 = 0u;
+    while (true) {
+        if (++vp_guard2 > 8192u) break;
+        const uint v187 = l2;
+        const bool v188 = v187 >= v139.y;
+        if (v188) {
+            break;
+        }
+        const uint v189 = v187 * 48u;
+        const uint v191 = v189 + 1024u;
+        const float4 v192 = *(constant float4*)(vp_args.lights + v191);
+        const uint v193 = v191 + 16u;
+        const float4 v194 = *(constant float4*)(vp_args.lights + v193);
+        const uint v195 = v191 + 32u;
+        const float4 v196 = *(constant float4*)(vp_args.lights + v195);
+        const float3 v197 = v192.xyz;
+        const float3 v199 = v197 - vp_in.world_pos;
+        const float v200 = dot(v199, v199);
+        const float v201 = rsqrt(v200);
+        const float3 v202 = float3(v201);
+        const float3 v203 = v199 * v202;
+        const float v204 = v192.w * v192.w;
+        const float v205 = 1.0f / v204;
+        const float v206 = v200 * v205;
+        const float v207 = v206 * v206;
+        const float v208 = 1.0f - v207;
+        const float v209 = saturate(v208);
+        const float v210 = v209 * v209;
+        const float v211 = v200 + 1.0f;
+        const float v212 = 1.0f / v211;
+        const float v213 = v210 * v212;
+        const float3 v214 = -v203;
+        const float3 v215 = v194.xyz;
+        const float v216 = dot(v214, v215);
+        const float v218 = v216 - v194.w;
+        const float v221 = v196.w - v194.w;
+        const float v222 = v218 / v221;
+        const float v223 = saturate(v222);
+        const float3 v224 = v196.xyz;
+        const float v225 = v213 * v223;
+        const float3 v226 = float3(v225);
+        const float3 v227 = v224 * v226;
+        const float v228 = dot(v43, v203);
+        const float v229 = saturate(v228);
+        const float3 v230 = v203 + v58;
+        const float3 v231 = normalize(v230);
+        const float v232 = dot(v43, v231);
+        const float v233 = saturate(v232);
+        const float v234 = pow(v233, v50);
+        const float v235 = v234 * v52;
+        const float3 v236 = float3(v229);
+        const float3 v237 = v227 * v236;
+        const float3 v238 = l0;
+        const float3 v239 = fma(v237, v64, v238);
+        l0 = v239;
+        const float3 v240 = l1;
+        const float3 v241 = v237 * v61;
+        const float3 v242 = float3(v235);
+        const float3 v243 = fma(v241, v242, v240);
+        l1 = v243;
+        const uint v244 = v187 + 1u;
+        l2 = v244;
+    }
+    l2 = 0u;
+    uint vp_guard3 = 0u;
+    while (true) {
+        if (++vp_guard3 > 8192u) break;
+        const uint v246 = l2;
+        const bool v247 = v246 >= v139.z;
+        if (v247) {
+            break;
+        }
+        const uint v248 = v246 * 32u;
+        const uint v250 = v248 + 2048u;
+        const float4 v251 = *(constant float4*)(vp_args.lights + v250);
+        const uint v252 = v250 + 16u;
+        const float4 v253 = *(constant float4*)(vp_args.lights + v252);
+        const float3 v254 = v251.xyz;
+        const float3 v255 = -v254;
+        const float3 v256 = normalize(v255);
+        const float3 v257 = v253.xyz;
+        const float3 v259 = float3(v253.w);
+        const float3 v260 = v257 * v259;
+        const float v261 = dot(v43, v256);
+        const float v262 = saturate(v261);
+        const float3 v263 = v256 + v58;
+        const float3 v264 = normalize(v263);
+        const float v265 = dot(v43, v264);
+        const float v266 = saturate(v265);
+        const float v267 = pow(v266, v50);
+        const float v268 = v267 * v52;
+        const float3 v269 = float3(v262);
+        const float3 v270 = v260 * v269;
+        const float3 v271 = l0;
+        const float3 v272 = fma(v270, v64, v271);
+        l0 = v272;
+        const float3 v273 = l1;
+        const float3 v274 = v270 * v61;
+        const float3 v275 = float3(v268);
+        const float3 v276 = fma(v274, v275, v273);
+        l1 = v276;
+        const uint v277 = v246 + 1u;
+        l2 = v277;
+    }
+    l2 = 0u;
+    uint vp_guard4 = 0u;
+    while (true) {
+        if (++vp_guard4 > 8192u) break;
+        const uint v279 = l2;
+        const bool v280 = v279 >= v139.w;
+        if (v280) {
+            break;
+        }
+        const uint v281 = v279 * 48u;
+        const uint v283 = v281 + 2560u;
+        const float4 v284 = *(constant float4*)(vp_args.lights + v283);
+        const uint v285 = v283 + 16u;
+        const float4 v286 = *(constant float4*)(vp_args.lights + v285);
+        const uint v287 = v283 + 32u;
+        const float4 v288 = *(constant float4*)(vp_args.lights + v287);
+        const float3 v289 = v284.xyz;
+        const float3 v290 = v289 - vp_in.world_pos;
+        const float v291 = length(v290);
+        const float v293 = v291 / v284.w;
+        const float v294 = 1.0f - v293;
+        const float v295 = saturate(v294);
+        const float3 v296 = v288.xyz;
+        const float v297 = dot(v43, v296);
+        const float v299 = fma(v297, 0.5f, 0.5f);
+        const float v300 = max(v299, 0.0f);
+        const float v301 = v295 * v300;
+        const float v303 = v301 * v288.w;
+        const float3 v304 = l0;
+        const float3 v305 = v286.xyz;
+        const float3 v306 = v305 * v64;
+        const float3 v307 = float3(v303);
+        const float3 v308 = fma(v306, v307, v304);
+        l0 = v308;
+        const uint v309 = v279 + 1u;
+        l2 = v309;
+    }
+    const float4 v311 = *(constant float4*)(vp_args.frame + 208u);
+    const float3 v312 = v311.xyz;
+    const float v313 = dot(v58, v43);
+    const float v314 = 2.0f * v313;
+    const float3 v315 = float3(v314);
+    const float3 v316 = v43 * v315;
+    const float3 v317 = v316 - v58;
+    const float4 v319 = *(constant float4*)(vp_args.frame + 240u);
+    const float v321 = v7.y * v319.y;
+    const float4 v322 = vp_args.env_map.sample(vp_args.aniso, v317, level(v321));
+    const float v323 = saturate(v313);
+    const float v324 = 1.0f - v323;
+    const float v326 = pow(v324, 5.0f);
+    const float3 v327 = float3(1.0f);
+    const float3 v328 = float3(v326);
+    const float3 v329 = mix(v61, v327, v328);
+    const float3 v330 = v312 * v64;
+    const float3 v331 = float3(v7.x);
+    const float3 v332 = l0;
+    const float3 v333 = fma(v330, v331, v332);
+    const float3 v334 = v322.xyz;
+    const float3 v335 = v334 * v329;
+    const float3 v337 = l1;
+    const float3 v338 = fma(v335, v331, v337);
+    const float3 v339 = v333 + v338;
+    const float4 v341 = *(constant float4*)(vp_args.frame + 224u);
+    const float v343 = vp_in.view_depth * v341.w;
+    const float v344 = -v343;
+    const float v345 = exp2(v344);
+    const float3 v346 = v341.xyz;
+    const float3 v347 = float3(v345);
+    const float3 v348 = mix(v346, v339, v347);
+    const float3 v350 = float3(v319.x);
+    const float3 v351 = v348 * v350;
+    const float3 v352 = v351 + v327;
+    const float3 v353 = v351 / v352;
+    const float4 v355 = float4(v353, v5.w);
+    vp_out.color = v355;
+    return vp_out;
+}
+
+test 54
+        Start  54: vpmsl.golden.image_atomics
+
+54: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests/vpmsl_golden" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/image_atomics.vpir" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/image_atomics.metal"
+54: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests
+54: Test timeout computed to be: 10000000
+54: output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/image_atomics.metal; got:
+54: #include <metal_stdlib>
+54: using namespace metal;
+54: #ifndef VP_PSZ
+54: #define VP_PSZ point_size
+54: #endif
+54: 
+54: struct VpArgs {
+54:     texture2d_array<uint, access::read_write> layers;
+54:     texture3d<int, access::read_write> vol;
+54: };
+54: 
+54: [[max_total_threads_per_threadgroup(64)]] kernel void vp_main(constant VpArgs& vp_args [[buffer(0)]],
+54:         uint3 in_gid [[thread_position_in_grid]]) {
+54:     const uint v2 = vp_args.layers.atomic_fetch_add(in_gid.xy, in_gid.z, 1u).x;
+54:     const int v3 = as_type<int>(v2);
+54:     vp_args.vol.atomic_fetch_max(in_gid, v3);
+54:     uint v6;
+54:     vec<uint, 4> v6_e;
+54:     do {
+54:         v6_e = 0u;
+54:     } while (!vp_args.layers.atomic_compare_exchange_weak(in_gid.xy, in_gid.z, &v6_e, v2) && v6_e.x == 0u);
+54:     v6 = v6_e.x;
+54:     vp_args.layers.atomic_exchange(in_gid.xy, in_gid.z, v6);
+54: }
+ 54/158 Test  #54: vpmsl.golden.image_atomics .................***Failed   22.42 sec
+output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/image_atomics.metal; got:
+#include <metal_stdlib>
+using namespace metal;
+#ifndef VP_PSZ
+#define VP_PSZ point_size
+#endif
+
+struct VpArgs {
+    texture2d_array<uint, access::read_write> layers;
+    texture3d<int, access::read_write> vol;
+};
+
+[[max_total_threads_per_threadgroup(64)]] kernel void vp_main(constant VpArgs& vp_args [[buffer(0)]],
+        uint3 in_gid [[thread_position_in_grid]]) {
+    const uint v2 = vp_args.layers.atomic_fetch_add(in_gid.xy, in_gid.z, 1u).x;
+    const int v3 = as_type<int>(v2);
+    vp_args.vol.atomic_fetch_max(in_gid, v3);
+    uint v6;
+    vec<uint, 4> v6_e;
+    do {
+        v6_e = 0u;
+    } while (!vp_args.layers.atomic_compare_exchange_weak(in_gid.xy, in_gid.z, &v6_e, v2) && v6_e.x == 0u);
+    v6 = v6_e.x;
+    vp_args.layers.atomic_exchange(in_gid.xy, in_gid.z, v6);
+}
+
+test 55
+        Start  55: vpmsl.golden.mesh_stage
+
+55: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests/vpmsl_golden" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/mesh_stage.vpir" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/mesh_stage.metal"
+55: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests
+55: Test timeout computed to be: 10000000
+55: output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/mesh_stage.metal; got:
+55: #include <metal_stdlib>
+55: using namespace metal;
+55: #ifndef VP_PSZ
+55: #define VP_PSZ point_size
+55: #endif
+55: 
+55: struct VpVertex {
+55:     float4 position [[position]];
+55:     float2 uv [[user(loc0)]];
+55: };
+55: 
+55: struct VpPrimitive {
+55:     uint layer [[render_target_array_index]];
+55: };
+55: 
+55: struct VpPayload {
+55:     uint words[4];
+55: };
+55: 
+55: [[mesh]] void vp_main(metal::mesh<VpVertex, VpPrimitive, 4, 2, topology::triangle> vp_mesh,
+55:         const object_data VpPayload& vp_payload [[payload]],
+55:         uint in_tid [[thread_index_in_threadgroup]]) {
+55:     const float v2 = *(const object_data float*)((const object_data uchar*)&vp_payload);
+55:     const float v4 = *(const object_data float*)((const object_data uchar*)&vp_payload + 4u);
+55:     const uint v6 = in_tid & 1u;
+55:     const float v7 = float(v6);
+55:     const uint v8 = in_tid >> 1u;
+55:     const float v9 = float(v8);
+55:     const float2 v10 = float2(v7, v9);
+55:     const float v11 = fma(v7, v4, v2);
+55:     const float4 v13 = float4(v11, v9, float2(0.0f, 1.0f));
+55:     vp_mesh.set_vertex(in_tid, VpVertex{v13, v10});
+55:     const bool v15 = in_tid < 2u;
+55:     if (v15) {
+55:         vp_mesh.set_primitive(in_tid, VpPrimitive{0u});
+55:         const uint v17 = in_tid * 3u;
+55:         const uint v18 = in_tid + 1u;
+55:         const uint v19 = in_tid + 2u;
+55:         vp_mesh.set_index(v17, uchar(in_tid));
+55:         const uint v20 = v17 + 1u;
+55:         vp_mesh.set_index(v20, uchar(v18));
+55:         const uint v21 = v17 + 2u;
+55:         vp_mesh.set_index(v21, uchar(v19));
+55:     }
+55:     const bool v23 = in_tid == 0u;
+55:     if (v23) {
+55:         vp_mesh.set_primitive_count(2u);
+55:     }
+55: }
+ 55/158 Test  #55: vpmsl.golden.mesh_stage ....................***Failed   29.37 sec
+output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/mesh_stage.metal; got:
+#include <metal_stdlib>
+using namespace metal;
+#ifndef VP_PSZ
+#define VP_PSZ point_size
+#endif
+
+struct VpVertex {
+    float4 position [[position]];
+    float2 uv [[user(loc0)]];
+};
+
+struct VpPrimitive {
+    uint layer [[render_target_array_index]];
+};
+
+struct VpPayload {
+    uint words[4];
+};
+
+[[mesh]] void vp_main(metal::mesh<VpVertex, VpPrimitive, 4, 2, topology::triangle> vp_mesh,
+        const object_data VpPayload& vp_payload [[payload]],
+        uint in_tid [[thread_index_in_threadgroup]]) {
+    const float v2 = *(const object_data float*)((const object_data uchar*)&vp_payload);
+    const float v4 = *(const object_data float*)((const object_data uchar*)&vp_payload + 4u);
+    const uint v6 = in_tid & 1u;
+    const float v7 = float(v6);
+    const uint v8 = in_tid >> 1u;
+    const float v9 = float(v8);
+    const float2 v10 = float2(v7, v9);
+    const float v11 = fma(v7, v4, v2);
+    const float4 v13 = float4(v11, v9, float2(0.0f, 1.0f));
+    vp_mesh.set_vertex(in_tid, VpVertex{v13, v10});
+    const bool v15 = in_tid < 2u;
+    if (v15) {
+        vp_mesh.set_primitive(in_tid, VpPrimitive{0u});
+        const uint v17 = in_tid * 3u;
+        const uint v18 = in_tid + 1u;
+        const uint v19 = in_tid + 2u;
+        vp_mesh.set_index(v17, uchar(in_tid));
+        const uint v20 = v17 + 1u;
+        vp_mesh.set_index(v20, uchar(v18));
+        const uint v21 = v17 + 2u;
+        vp_mesh.set_index(v21, uchar(v19));
+    }
+    const bool v23 = in_tid == 0u;
+    if (v23) {
+        vp_mesh.set_primitive_count(2u);
+    }
+}
+
+test 56
+        Start  56: vpmsl.golden.object_stage
+
+56: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests/vpmsl_golden" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/object_stage.vpir" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/object_stage.metal"
+56: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests
+56: Test timeout computed to be: 10000000
+56: output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/object_stage.metal; got:
+56: #include <metal_stdlib>
+56: using namespace metal;
+56: #ifndef VP_PSZ
+56: #define VP_PSZ point_size
+56: #endif
+56: 
+56: struct VpArgs {
+56:     constant uchar* params;
+56: };
+56: 
+56: struct VpPayload {
+56:     uint words[4];
+56: };
+56: 
+56: [[object]] void vp_main(object_data VpPayload& vp_payload [[payload]],
+56:         mesh_grid_properties vp_grid,
+56:         constant VpArgs& vp_args [[buffer(0)]],
+56:         uint3 in_group [[threadgroup_position_in_grid]]) {
+56:     const float4 v3 = *(constant float4*)(vp_args.params);
+56:     const float v4 = float(in_group.x);
+56:     const float v6 = v4 * v3.x;
+56:     const uint v7 = as_type<uint>(v6);
+56:     *(object_data uint*)((object_data uchar*)&vp_payload) = v7;
+56:     const uint v10 = as_type<uint>(v3.y);
+56:     *(object_data uint*)((object_data uchar*)&vp_payload + 4u) = v10;
+56:     vp_grid.set_threadgroups_per_grid(uint3(1u, 1u, 1u));
+56: }
+ 56/158 Test  #56: vpmsl.golden.object_stage ..................***Failed    3.92 sec
+output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/object_stage.metal; got:
+#include <metal_stdlib>
+using namespace metal;
+#ifndef VP_PSZ
+#define VP_PSZ point_size
+#endif
+
+struct VpArgs {
+    constant uchar* params;
+};
+
+struct VpPayload {
+    uint words[4];
+};
+
+[[object]] void vp_main(object_data VpPayload& vp_payload [[payload]],
+        mesh_grid_properties vp_grid,
+        constant VpArgs& vp_args [[buffer(0)]],
+        uint3 in_group [[threadgroup_position_in_grid]]) {
+    const float4 v3 = *(constant float4*)(vp_args.params);
+    const float v4 = float(in_group.x);
+    const float v6 = v4 * v3.x;
+    const uint v7 = as_type<uint>(v6);
+    *(object_data uint*)((object_data uchar*)&vp_payload) = v7;
+    const uint v10 = as_type<uint>(v3.y);
+    *(object_data uint*)((object_data uchar*)&vp_payload + 4u) = v10;
+    vp_grid.set_threadgroups_per_grid(uint3(1u, 1u, 1u));
+}
+
+test 57
+        Start  57: vpmsl.golden.passthrough_vs
+
+57: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests/vpmsl_golden" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/passthrough_vs.vpir" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/passthrough_vs.metal"
+57: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests
+57: Test timeout computed to be: 10000000
+57: output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/passthrough_vs.metal; got:
+57: #include <metal_stdlib>
+57: using namespace metal;
+57: #ifndef VP_PSZ
+57: #define VP_PSZ point_size
+57: #endif
+57: 
+57: struct VpIn {
+57:     float4 pos [[attribute(0)]];
+57:     float2 uv [[attribute(1)]];
+57: };
+57: 
+57: struct VpOut {
+57:     float4 position [[position]];
+57:     float2 tex_uv [[user(loc0)]];
+57:     uint id [[user(loc1)]];
+57: };
+57: 
+57: vertex VpOut vp_main(VpIn vp_in [[stage_in]],
+57:         uint in_vid [[vertex_id]]) {
+57:     VpOut vp_out;
+57:     vp_out.position = vp_in.pos;
+57:     vp_out.tex_uv = vp_in.uv;
+57:     vp_out.id = in_vid;
+57:     return vp_out;
+57: }
+ 57/158 Test  #57: vpmsl.golden.passthrough_vs ................***Failed   10.76 sec
+output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/passthrough_vs.metal; got:
+#include <metal_stdlib>
+using namespace metal;
+#ifndef VP_PSZ
+#define VP_PSZ point_size
+#endif
+
+struct VpIn {
+    float4 pos [[attribute(0)]];
+    float2 uv [[attribute(1)]];
+};
+
+struct VpOut {
+    float4 position [[position]];
+    float2 tex_uv [[user(loc0)]];
+    uint id [[user(loc1)]];
+};
+
+vertex VpOut vp_main(VpIn vp_in [[stage_in]],
+        uint in_vid [[vertex_id]]) {
+    VpOut vp_out;
+    vp_out.position = vp_in.pos;
+    vp_out.tex_uv = vp_in.uv;
+    vp_out.id = in_vid;
+    return vp_out;
+}
+
+test 58
+        Start  58: vpmsl.golden.precise_fma
+
+58: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests/vpmsl_golden" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/precise_fma.vpir" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/precise_fma.metal"
+58: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests
+58: Test timeout computed to be: 10000000
+58: output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/precise_fma.metal; got:
+58: #include <metal_stdlib>
+58: using namespace metal;
+58: #ifndef VP_PSZ
+58: #define VP_PSZ point_size
+58: #endif
+58: 
+58: struct VpIn {
+58:     float4 a [[user(loc0)]];
+58: };
+58: 
+58: struct VpOut {
+58:     float4 exact [[color(0)]];
+58:     float4 fast [[color(1)]];
+58: };
+58: 
+58: fragment VpOut vp_main(VpIn vp_in [[stage_in]]) {
+58:     VpOut vp_out;
+58:     const float4 v1 = float4(0.5f, 0.25f, 2.0f, 1.0f);
+58:     const float4 v2 = fma(vp_in.a, v1, v1);
+58:     const float4 v3 = precise::sqrt(v2);
+58:     const float4 v4 = precise::divide(v3, v1);
+58:     vp_out.exact = v4;
+58:     const float4 v5 = fma(vp_in.a, v1, v1);
+58:     const float4 v6 = rsqrt(v5);
+58:     const float4 v7 = 1.0f / v6;
+58:     vp_out.fast = v7;
+58:     return vp_out;
+58: }
+ 58/158 Test  #58: vpmsl.golden.precise_fma ...................***Failed   18.38 sec
+output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/precise_fma.metal; got:
+#include <metal_stdlib>
+using namespace metal;
+#ifndef VP_PSZ
+#define VP_PSZ point_size
+#endif
+
+struct VpIn {
+    float4 a [[user(loc0)]];
+};
+
+struct VpOut {
+    float4 exact [[color(0)]];
+    float4 fast [[color(1)]];
+};
+
+fragment VpOut vp_main(VpIn vp_in [[stage_in]]) {
+    VpOut vp_out;
+    const float4 v1 = float4(0.5f, 0.25f, 2.0f, 1.0f);
+    const float4 v2 = fma(vp_in.a, v1, v1);
+    const float4 v3 = precise::sqrt(v2);
+    const float4 v4 = precise::divide(v3, v1);
+    vp_out.exact = v4;
+    const float4 v5 = fma(vp_in.a, v1, v1);
+    const float4 v6 = rsqrt(v5);
+    const float4 v7 = 1.0f / v6;
+    vp_out.fast = v7;
+    return vp_out;
+}
+
+test 59
+        Start  59: vpmsl.golden.private_memory
+
+59: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests/vpmsl_golden" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/private_memory.vpir" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/private_memory.metal"
+59: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests
+59: Test timeout computed to be: 10000000
+59: output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/private_memory.metal; got:
+59: #include <metal_stdlib>
+59: using namespace metal;
+59: #ifndef VP_PSZ
+59: #define VP_PSZ point_size
+59: #endif
+59: 
+59: struct VpIn {
+59:     float4 a [[user(loc0)]];
+59: };
+59: 
+59: struct VpOut {
+59:     float4 color [[color(0)]];
+59: };
+59: 
+59: fragment VpOut vp_main(VpIn vp_in [[stage_in]]) {
+59:     VpOut vp_out;
+59:     uint4 vp_private[2] = {};
+59:     const uint v2 = as_type<uint>(vp_in.a.x);
+59:     const uint v4 = v2 & 3u;
+59:     const uint v6 = v4 * 4u;
+59:     *(thread packed_float4*)((thread uchar*)vp_private + v6) = vp_in.a;
+59:     *(thread uint*)((thread uchar*)vp_private + 16u) = v2;
+59:     const float4 v8 = float4(*(thread packed_float4*)((thread uchar*)vp_private + v6));
+59:     const uint v9 = *(thread uint*)((thread uchar*)vp_private + 16u);
+59:     const float v10 = float(v9);
+59:     float4 v11 = v8;
+59:     v11.w = v10;
+59:     vp_out.color = v11;
+59:     return vp_out;
+59: }
+ 59/158 Test  #59: vpmsl.golden.private_memory ................***Failed    8.65 sec
+output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/private_memory.metal; got:
+#include <metal_stdlib>
+using namespace metal;
+#ifndef VP_PSZ
+#define VP_PSZ point_size
+#endif
+
+struct VpIn {
+    float4 a [[user(loc0)]];
+};
+
+struct VpOut {
+    float4 color [[color(0)]];
+};
+
+fragment VpOut vp_main(VpIn vp_in [[stage_in]]) {
+    VpOut vp_out;
+    uint4 vp_private[2] = {};
+    const uint v2 = as_type<uint>(vp_in.a.x);
+    const uint v4 = v2 & 3u;
+    const uint v6 = v4 * 4u;
+    *(thread packed_float4*)((thread uchar*)vp_private + v6) = vp_in.a;
+    *(thread uint*)((thread uchar*)vp_private + 16u) = v2;
+    const float4 v8 = float4(*(thread packed_float4*)((thread uchar*)vp_private + v6));
+    const uint v9 = *(thread uint*)((thread uchar*)vp_private + 16u);
+    const float v10 = float(v9);
+    float4 v11 = v8;
+    v11.w = v10;
+    vp_out.color = v11;
+    return vp_out;
+}
+
+test 60
+        Start  60: vpmsl.golden.private_slots
+
+60: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests/vpmsl_golden" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/private_slots.vpir" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/private_slots.metal"
+60: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests
+60: Test timeout computed to be: 10000000
+ 60/158 Test  #60: vpmsl.golden.private_slots .................   Passed    5.97 sec
+test 61
+        Start  61: vpmsl.golden.quad_ops
+
+61: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests/vpmsl_golden" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/quad_ops.vpir" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/quad_ops.metal"
+61: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests
+61: Test timeout computed to be: 10000000
+61: output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/quad_ops.metal; got:
+61: #include <metal_stdlib>
+61: using namespace metal;
+61: #ifndef VP_PSZ
+61: #define VP_PSZ point_size
+61: #endif
+61: 
+61: struct VpIn {
+61:     float4 a [[user(loc0)]];
+61: };
+61: 
+61: struct VpOut {
+61:     float4 color [[color(0)]];
+61: };
+61: 
+61: fragment VpOut vp_main(VpIn vp_in [[stage_in]]) {
+61:     VpOut vp_out;
+61:     const float v3 = quad_shuffle(vp_in.a.x, ushort(1u));
+61:     const float v5 = quad_shuffle(vp_in.a.x, ushort(2u));
+61:     const float v6 = v3 - vp_in.a.x;
+61:     const float v7 = v5 - vp_in.a.x;
+61:     const bool v9 = vp_in.a.x > 0.5f;
+61:     const bool v10 = quad_any(v9);
+61:     const float v13 = v10 ? 1.0f : 0.0f;
+61:     const float4 v14 = float4(v6, v7, v13, 1.0f);
+61:     vp_out.color = v14;
+61:     return vp_out;
+61: }
+ 61/158 Test  #61: vpmsl.golden.quad_ops ......................***Failed    3.95 sec
+output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/quad_ops.metal; got:
+#include <metal_stdlib>
+using namespace metal;
+#ifndef VP_PSZ
+#define VP_PSZ point_size
+#endif
+
+struct VpIn {
+    float4 a [[user(loc0)]];
+};
+
+struct VpOut {
+    float4 color [[color(0)]];
+};
+
+fragment VpOut vp_main(VpIn vp_in [[stage_in]]) {
+    VpOut vp_out;
+    const float v3 = quad_shuffle(vp_in.a.x, ushort(1u));
+    const float v5 = quad_shuffle(vp_in.a.x, ushort(2u));
+    const float v6 = v3 - vp_in.a.x;
+    const float v7 = v5 - vp_in.a.x;
+    const bool v9 = vp_in.a.x > 0.5f;
+    const bool v10 = quad_any(v9);
+    const float v13 = v10 ? 1.0f : 0.0f;
+    const float4 v14 = float4(v6, v7, v13, 1.0f);
+    vp_out.color = v14;
+    return vp_out;
+}
+
+test 62
+        Start  62: vpmsl.golden.query_lod
+
+62: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests/vpmsl_golden" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/query_lod.vpir" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/query_lod.metal"
+62: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests
+62: Test timeout computed to be: 10000000
+62: output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/query_lod.metal; got:
+62: #include <metal_stdlib>
+62: using namespace metal;
+62: #ifndef VP_PSZ
+62: #define VP_PSZ point_size
+62: #endif
+62: 
+62: struct VpArgs {
+62:     texture2d_array<float> layers;
+62:     texturecube_array<float> cubes;
+62:     sampler smp;
+62: };
+62: 
+62: struct VpIn {
+62:     float3 uv [[user(loc0)]];
+62:     float4 dir [[user(loc1)]];
+62: };
+62: 
+62: struct VpOut {
+62:     float4 color [[color(0)]];
+62: };
+62: 
+62: fragment VpOut vp_main(VpIn vp_in [[stage_in]],
+62:         constant VpArgs& vp_args [[buffer(0)]]) {
+62:     VpOut vp_out;
+62:     const float2 v2 = float2(vp_args.layers.calculate_clamped_lod(vp_args.smp, vp_in.uv.xy), vp_args.layers.calculate_unclamped_lod(vp_args.smp, vp_in.uv.xy));
+62:     const float2 v3 = float2(vp_args.cubes.calculate_clamped_lod(vp_args.smp, vp_in.dir.xyz), vp_args.cubes.calculate_unclamped_lod(vp_args.smp, vp_in.dir.xyz));
+62:     const float2 v4 = v2 + v3;
+62:     const float4 v8 = float4(v4.x, v4.y, 1.0f, 1.0f);
+62:     vp_out.color = v8;
+62:     return vp_out;
+62: }
+ 62/158 Test  #62: vpmsl.golden.query_lod .....................***Failed    2.51 sec
+output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/query_lod.metal; got:
+#include <metal_stdlib>
+using namespace metal;
+#ifndef VP_PSZ
+#define VP_PSZ point_size
+#endif
+
+struct VpArgs {
+    texture2d_array<float> layers;
+    texturecube_array<float> cubes;
+    sampler smp;
+};
+
+struct VpIn {
+    float3 uv [[user(loc0)]];
+    float4 dir [[user(loc1)]];
+};
+
+struct VpOut {
+    float4 color [[color(0)]];
+};
+
+fragment VpOut vp_main(VpIn vp_in [[stage_in]],
+        constant VpArgs& vp_args [[buffer(0)]]) {
+    VpOut vp_out;
+    const float2 v2 = float2(vp_args.layers.calculate_clamped_lod(vp_args.smp, vp_in.uv.xy), vp_args.layers.calculate_unclamped_lod(vp_args.smp, vp_in.uv.xy));
+    const float2 v3 = float2(vp_args.cubes.calculate_clamped_lod(vp_args.smp, vp_in.dir.xyz), vp_args.cubes.calculate_unclamped_lod(vp_args.smp, vp_in.dir.xyz));
+    const float2 v4 = v2 + v3;
+    const float4 v8 = float4(v4.x, v4.y, 1.0f, 1.0f);
+    vp_out.color = v8;
+    return vp_out;
+}
+
+test 63
+        Start  63: vpmsl.golden.subgroup
+
+63: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests/vpmsl_golden" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/subgroup.vpir" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/subgroup.metal"
+63: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests
+63: Test timeout computed to be: 10000000
+63: output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/subgroup.metal; got:
+63: #include <metal_stdlib>
+63: using namespace metal;
+63: #ifndef VP_PSZ
+63: #define VP_PSZ point_size
+63: #endif
+63: 
+63: struct VpArgs {
+63:     device uchar* out;
+63:     const device uchar* src;
+63: };
+63: 
+63: [[max_total_threads_per_threadgroup(32)]] kernel void vp_main(constant VpArgs& vp_args [[buffer(0)]],
+63:         uint3 in_gid [[thread_position_in_grid]],
+63:         uint in_lane [[thread_index_in_simdgroup]]) {
+63:     const uint v4 = in_gid.x << 2u;
+63:     const float v5 = *(const device float*)(vp_args.src + v4);
+63:     const bool v7 = v5 > 0.0f;
+63:     const uint4 v8 = uint4(as_type<uint2>(simd_vote::vote_t(simd_ballot(v7))), 0u, 0u);
+63:     const bool v9 = simd_any(v7);
+63:     const bool v10 = simd_all(v7);
+63:     const float v11 = simd_broadcast_first(v5);
+63:     const uint v13 = in_lane ^ 1u;
+63:     const float v14 = simd_shuffle(v5, ushort(v13));
+63:     const float v15 = simd_broadcast(v5, ushort(1u));
+63:     const float v16 = v9 ? v11 : v14;
+63:     const float v17 = v10 ? v15 : v16;
+63:     const uint v19 = in_gid.x << 4u;
+63:     *(device packed_uint4*)(vp_args.out + v19) = v8;
+63:     const uint v21 = v19 + 16u;
+63:     *(device float*)(vp_args.out + v21) = v17;
+63: }
+ 63/158 Test  #63: vpmsl.golden.subgroup ......................***Failed    2.27 sec
+output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/subgroup.metal; got:
+#include <metal_stdlib>
+using namespace metal;
+#ifndef VP_PSZ
+#define VP_PSZ point_size
+#endif
+
+struct VpArgs {
+    device uchar* out;
+    const device uchar* src;
+};
+
+[[max_total_threads_per_threadgroup(32)]] kernel void vp_main(constant VpArgs& vp_args [[buffer(0)]],
+        uint3 in_gid [[thread_position_in_grid]],
+        uint in_lane [[thread_index_in_simdgroup]]) {
+    const uint v4 = in_gid.x << 2u;
+    const float v5 = *(const device float*)(vp_args.src + v4);
+    const bool v7 = v5 > 0.0f;
+    const uint4 v8 = uint4(as_type<uint2>(simd_vote::vote_t(simd_ballot(v7))), 0u, 0u);
+    const bool v9 = simd_any(v7);
+    const bool v10 = simd_all(v7);
+    const float v11 = simd_broadcast_first(v5);
+    const uint v13 = in_lane ^ 1u;
+    const float v14 = simd_shuffle(v5, ushort(v13));
+    const float v15 = simd_broadcast(v5, ushort(1u));
+    const float v16 = v9 ? v11 : v14;
+    const float v17 = v10 ? v15 : v16;
+    const uint v19 = in_gid.x << 4u;
+    *(device packed_uint4*)(vp_args.out + v19) = v8;
+    const uint v21 = v19 + 16u;
+    *(device float*)(vp_args.out + v21) = v17;
+}
+
+test 64
+        Start  64: vpmsl.golden.syntax_tour
+
+64: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests/vpmsl_golden" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/syntax_tour.vpir" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/syntax_tour.metal"
+64: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests
+64: Test timeout computed to be: 10000000
+64: output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/syntax_tour.metal; got:
+64: #include <metal_stdlib>
+64: using namespace metal;
+64: #ifndef VP_PSZ
+64: #define VP_PSZ point_size
+64: #endif
+64: 
+64: struct VpArgs {
+64:     device uchar* counters;
+64:     texture2d_array<half> tex;
+64:     texturecube_array<float> cubes;
+64:     depthcube<float> depth_map;
+64:     sampler smp;
+64:     texture2d<uint, access::read_write> img;
+64: };
+64: 
+64: struct VpIn {
+64:     interpolant<float2, interpolation::perspective> uv [[user(loc0)]];
+64:     interpolant<float2, interpolation::no_perspective> ndc [[user(loc1)]];
+64:     uint id [[user(loc2), flat]];
+64: };
+64: 
+64: struct VpOut {
+64:     float4 color [[color(0)]];
+64: #ifndef VP_NO_FDEPTH
+64:     float depth [[depth(any)]];
+64: #endif
+64: };
+64: 
+64: static float fn_lerp3(float v0, float v1, float v2) {
+64:     const float v3 = mix(v0, v1, v2);
+64:     return v3;
+64: }
+64: 
+64: fragment VpOut vp_main(VpIn vp_in [[stage_in]],
+64:         constant VpArgs& vp_args [[buffer(0)]],
+64:         uint in_sid [[sample_id]],
+64:         bool in_face [[front_facing]],
+64:         float4 in_frag [[position]]) {
+64:     VpOut vp_out;
+64:     half4 l0{};
+64:     const float2 v5 = vp_in.uv.interpolate_at_centroid();
+64:     const float3 v7 = float3(v5, 0.5f);
+64:     const half4 v9 = vp_args.tex.sample(vp_args.smp, v7.xy, uint(rint(v7.z)), bias(1.0f));
+64:     const float4 v10 = float4(v7, 1.0f);
+64:     const float3 v11 = float3(0.5f);
+64:     const float4 v12 = vp_args.cubes.sample(vp_args.smp, v10.xyz, uint(rint(v10.w)), gradientcube(v11, v11));
+64:     const uint2 v14 = uint2(0u);
+64:     const uint4 v15 = vp_args.img.read(v14);
+64:     vp_args.img.write(v15, v14);
+64:     const uint v17 = vp_args.cubes.get_num_mip_levels();
+64:     const uint v20 = vp_in.id << 2u;
+64:     atomic_fetch_or_explicit((device atomic_uint*)(vp_args.counters + v20), v17, memory_order_relaxed);
+64:     const float v23 = fn_lerp3(v12.x, 1.0f, 0.5f);
+64:     const float4 v24 = float4(float4(-0.0f, 1e-07f, 3.4028235e+38f, as_type<float>(0x7fc00000u)).x, v12.y, float4(-0.0f, 1e-07f, 3.4028235e+38f, as_type<float>(0x7fc00000u)).z, v12.w);
+64:     float4 v25 = v24;
+64:     v25.w = v23;
+64:     const bool4 v26 = (as_type<uint4>(v25) & 0x7fffffffu) > 0x7f800000u;
+64:     const float4 v27 = select(v25, v12, v26);
+64:     const float4 v29 = float4(v9);
+64:     const float4 v30 = in_face ? v27 : v29;
+64:     const float2 v31 = vp_in.ndc.interpolate_at_offset(v5 + 0.5f);
+64:     const uint2 v32 = as_type<uint2>(v31);
+64:     const uint v33 = extract_bits(vp_in.id, 2u, 2u);
+64:     const uint v34 = 31u - clz(v33);
+64:     const uint v36 = v34 + v32.y;
+64:     const float v37 = float(v36);
+64:     const float v38 = fwidth(v37);
+64:     vp_out.color = v30;
+64: #ifndef VP_NO_FDEPTH
+64:     vp_out.depth = v38;
+64: #endif
+64:     l0 = half4(as_type<half>(ushort(0x7c00)), 0.5h, -2.0h, 65504.0h);
+64:     const bool v41 = v38 < 0.0f;
+64:     const bool v42 = false || v41;
+64:     if (v42) {
+64:         discard_fragment();
+64:     } else {
+64:         return vp_out;
+64:     }
+64:     return vp_out;
+64: }
+ 64/158 Test  #64: vpmsl.golden.syntax_tour ...................***Failed    2.11 sec
+output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/syntax_tour.metal; got:
+#include <metal_stdlib>
+using namespace metal;
+#ifndef VP_PSZ
+#define VP_PSZ point_size
+#endif
+
+struct VpArgs {
+    device uchar* counters;
+    texture2d_array<half> tex;
+    texturecube_array<float> cubes;
+    depthcube<float> depth_map;
+    sampler smp;
+    texture2d<uint, access::read_write> img;
+};
+
+struct VpIn {
+    interpolant<float2, interpolation::perspective> uv [[user(loc0)]];
+    interpolant<float2, interpolation::no_perspective> ndc [[user(loc1)]];
+    uint id [[user(loc2), flat]];
+};
+
+struct VpOut {
+    float4 color [[color(0)]];
+#ifndef VP_NO_FDEPTH
+    float depth [[depth(any)]];
+#endif
+};
+
+static float fn_lerp3(float v0, float v1, float v2) {
+    const float v3 = mix(v0, v1, v2);
+    return v3;
+}
+
+fragment VpOut vp_main(VpIn vp_in [[stage_in]],
+        constant VpArgs& vp_args [[buffer(0)]],
+        uint in_sid [[sample_id]],
+        bool in_face [[front_facing]],
+        float4 in_frag [[position]]) {
+    VpOut vp_out;
+    half4 l0{};
+    const float2 v5 = vp_in.uv.interpolate_at_centroid();
+    const float3 v7 = float3(v5, 0.5f);
+    const half4 v9 = vp_args.tex.sample(vp_args.smp, v7.xy, uint(rint(v7.z)), bias(1.0f));
+    const float4 v10 = float4(v7, 1.0f);
+    const float3 v11 = float3(0.5f);
+    const float4 v12 = vp_args.cubes.sample(vp_args.smp, v10.xyz, uint(rint(v10.w)), gradientcube(v11, v11));
+    const uint2 v14 = uint2(0u);
+    const uint4 v15 = vp_args.img.read(v14);
+    vp_args.img.write(v15, v14);
+    const uint v17 = vp_args.cubes.get_num_mip_levels();
+    const uint v20 = vp_in.id << 2u;
+    atomic_fetch_or_explicit((device atomic_uint*)(vp_args.counters + v20), v17, memory_order_relaxed);
+    const float v23 = fn_lerp3(v12.x, 1.0f, 0.5f);
+    const float4 v24 = float4(float4(-0.0f, 1e-07f, 3.4028235e+38f, as_type<float>(0x7fc00000u)).x, v12.y, float4(-0.0f, 1e-07f, 3.4028235e+38f, as_type<float>(0x7fc00000u)).z, v12.w);
+    float4 v25 = v24;
+    v25.w = v23;
+    const bool4 v26 = (as_type<uint4>(v25) & 0x7fffffffu) > 0x7f800000u;
+    const float4 v27 = select(v25, v12, v26);
+    const float4 v29 = float4(v9);
+    const float4 v30 = in_face ? v27 : v29;
+    const float2 v31 = vp_in.ndc.interpolate_at_offset(v5 + 0.5f);
+    const uint2 v32 = as_type<uint2>(v31);
+    const uint v33 = extract_bits(vp_in.id, 2u, 2u);
+    const uint v34 = 31u - clz(v33);
+    const uint v36 = v34 + v32.y;
+    const float v37 = float(v36);
+    const float v38 = fwidth(v37);
+    vp_out.color = v30;
+#ifndef VP_NO_FDEPTH
+    vp_out.depth = v38;
+#endif
+    l0 = half4(as_type<half>(ushort(0x7c00)), 0.5h, -2.0h, 65504.0h);
+    const bool v41 = v38 < 0.0f;
+    const bool v42 = false || v41;
+    if (v42) {
+        discard_fragment();
+    } else {
+        return vp_out;
+    }
+    return vp_out;
+}
+
+test 65
+        Start  65: vpmsl.golden.textured_fs
+
+65: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests/vpmsl_golden" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/textured_fs.vpir" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/textured_fs.metal"
+65: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests
+65: Test timeout computed to be: 10000000
+65: output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/textured_fs.metal; got:
+65: #include <metal_stdlib>
+65: using namespace metal;
+65: #ifndef VP_PSZ
+65: #define VP_PSZ point_size
+65: #endif
+65: 
+65: struct VpArgs {
+65:     constant uchar* params;
+65:     texture2d<float> albedo;
+65:     sampler smp;
+65: };
+65: 
+65: struct VpIn {
+65:     float2 uv [[user(loc0)]];
+65:     float4 tint [[user(loc1), centroid_no_perspective]];
+65: };
+65: 
+65: struct VpOut {
+65:     float4 color [[color(0)]];
+65: };
+65: 
+65: fragment VpOut vp_main(VpIn vp_in [[stage_in]],
+65:         constant VpArgs& vp_args [[buffer(0)]]) {
+65:     VpOut vp_out;
+65:     const float4 v1 = vp_args.albedo.sample(vp_args.smp, vp_in.uv);
+65:     const bool v5 = v1.w < (*(constant float*)(vp_args.params));
+65:     if (v5) {
+65:         discard_fragment();
+65:     }
+65:     const float4 v7 = v1 * vp_in.tint;
+65:     vp_out.color = v7;
+65:     return vp_out;
+65: }
+ 65/158 Test  #65: vpmsl.golden.textured_fs ...................***Failed    2.42 sec
+output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/textured_fs.metal; got:
+#include <metal_stdlib>
+using namespace metal;
+#ifndef VP_PSZ
+#define VP_PSZ point_size
+#endif
+
+struct VpArgs {
+    constant uchar* params;
+    texture2d<float> albedo;
+    sampler smp;
+};
+
+struct VpIn {
+    float2 uv [[user(loc0)]];
+    float4 tint [[user(loc1), centroid_no_perspective]];
+};
+
+struct VpOut {
+    float4 color [[color(0)]];
+};
+
+fragment VpOut vp_main(VpIn vp_in [[stage_in]],
+        constant VpArgs& vp_args [[buffer(0)]]) {
+    VpOut vp_out;
+    const float4 v1 = vp_args.albedo.sample(vp_args.smp, vp_in.uv);
+    const bool v5 = v1.w < (*(constant float*)(vp_args.params));
+    if (v5) {
+        discard_fragment();
+    }
+    const float4 v7 = v1 * vp_in.tint;
+    vp_out.color = v7;
+    return vp_out;
+}
+
+test 66
+        Start  66: vpmsl.outputs.deferred_light
+
+66: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests/vpmsl_golden" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/deferred_light_fetched_fs.vpir" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/deferred_light_fetched_fs.metal" "--color-outputs" "0x8"
+66: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests
+66: Test timeout computed to be: 10000000
+66: output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/deferred_light_fetched_fs.metal; got:
+66: #include <metal_stdlib>
+66: using namespace metal;
+66: #ifndef VP_PSZ
+66: #define VP_PSZ point_size
+66: #endif
+66: 
+66: struct VpArgs {
+66:     constant uchar* light;
+66: };
+66: 
+66: struct VpOut {
+66:     half4 lit [[color(3)]];
+66: };
+66: 
+66: fragment VpOut vp_main(constant VpArgs& vp_args [[buffer(0)]],
+66:         float4 in_frag_pos [[position]],
+66:         float4 vp_fb0 [[color(0)]],
+66:         float4 vp_fb1 [[color(1)]],
+66:         float4 vp_fb2 [[color(2)]]) {
+66:     VpOut vp_out;
+66:     const float3 v10 = vp_fb1.xyz;
+66:     const float3 v13 = fma(v10, float3(2.0f), float3(-1.0f));
+66:     const float3 v14 = normalize(v13);
+66:     const float4 v16 = *(constant float4*)(vp_args.light);
+66:     const float3 v17 = v16.xyz;
+66:     const float v18 = dot(v14, v17);
+66:     const float v19 = max(v18, 0.0f);
+66:     const float v21 = v19 * v16.w;
+66:     const float3 v24 = vp_fb0.xyz;
+66:     const float3 v25 = v24 * float3(*(constant packed_float3*)(vp_args.light + 16u));
+66:     const float3 v26 = float3(v21);
+66:     const float3 v27 = v25 * v26;
+66:     const float4 v29 = *(constant float4*)(vp_args.light + 32u);
+66:     const float v32 = vp_fb2.x * v29.w;
+66:     const float v33 = -v32;
+66:     const float v34 = exp2(v33);
+66:     const float3 v35 = v29.xyz;
+66:     const float3 v36 = float3(v34);
+66:     const float3 v37 = mix(v35, v27, v36);
+66:     const float4 v39 = float4(v37, vp_fb0.w);
+66:     const half4 v40 = half4(v39);
+66:     vp_out.lit = v40;
+66:     return vp_out;
+66: }
+ 66/158 Test  #66: vpmsl.outputs.deferred_light ...............***Failed    4.66 sec
+output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/deferred_light_fetched_fs.metal; got:
+#include <metal_stdlib>
+using namespace metal;
+#ifndef VP_PSZ
+#define VP_PSZ point_size
+#endif
+
+struct VpArgs {
+    constant uchar* light;
+};
+
+struct VpOut {
+    half4 lit [[color(3)]];
+};
+
+fragment VpOut vp_main(constant VpArgs& vp_args [[buffer(0)]],
+        float4 in_frag_pos [[position]],
+        float4 vp_fb0 [[color(0)]],
+        float4 vp_fb1 [[color(1)]],
+        float4 vp_fb2 [[color(2)]]) {
+    VpOut vp_out;
+    const float3 v10 = vp_fb1.xyz;
+    const float3 v13 = fma(v10, float3(2.0f), float3(-1.0f));
+    const float3 v14 = normalize(v13);
+    const float4 v16 = *(constant float4*)(vp_args.light);
+    const float3 v17 = v16.xyz;
+    const float v18 = dot(v14, v17);
+    const float v19 = max(v18, 0.0f);
+    const float v21 = v19 * v16.w;
+    const float3 v24 = vp_fb0.xyz;
+    const float3 v25 = v24 * float3(*(constant packed_float3*)(vp_args.light + 16u));
+    const float3 v26 = float3(v21);
+    const float3 v27 = v25 * v26;
+    const float4 v29 = *(constant float4*)(vp_args.light + 32u);
+    const float v32 = vp_fb2.x * v29.w;
+    const float v33 = -v32;
+    const float v34 = exp2(v33);
+    const float3 v35 = v29.xyz;
+    const float3 v36 = float3(v34);
+    const float3 v37 = mix(v35, v27, v36);
+    const float4 v39 = float4(v37, vp_fb0.w);
+    const half4 v40 = half4(v39);
+    vp_out.lit = v40;
+    return vp_out;
+}
+
+test 67
+        Start  67: vpmsl.outputs.precise_fma
+
+67: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests/vpmsl_golden" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/precise_fma.vpir" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/precise_fma.metal" "--color-outputs" "0x3"
+67: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests
+67: Test timeout computed to be: 10000000
+67: output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/precise_fma.metal; got:
+67: #include <metal_stdlib>
+67: using namespace metal;
+67: #ifndef VP_PSZ
+67: #define VP_PSZ point_size
+67: #endif
+67: 
+67: struct VpIn {
+67:     float4 a [[user(loc0)]];
+67: };
+67: 
+67: struct VpOut {
+67:     float4 exact [[color(0)]];
+67:     float4 fast [[color(1)]];
+67: };
+67: 
+67: fragment VpOut vp_main(VpIn vp_in [[stage_in]]) {
+67:     VpOut vp_out;
+67:     const float4 v1 = float4(0.5f, 0.25f, 2.0f, 1.0f);
+67:     const float4 v2 = fma(vp_in.a, v1, v1);
+67:     const float4 v3 = precise::sqrt(v2);
+67:     const float4 v4 = precise::divide(v3, v1);
+67:     vp_out.exact = v4;
+67:     const float4 v5 = fma(vp_in.a, v1, v1);
+67:     const float4 v6 = rsqrt(v5);
+67:     const float4 v7 = 1.0f / v6;
+67:     vp_out.fast = v7;
+67:     return vp_out;
+67: }
+ 67/158 Test  #67: vpmsl.outputs.precise_fma ..................***Failed    2.25 sec
+output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/precise_fma.metal; got:
+#include <metal_stdlib>
+using namespace metal;
+#ifndef VP_PSZ
+#define VP_PSZ point_size
+#endif
+
+struct VpIn {
+    float4 a [[user(loc0)]];
+};
+
+struct VpOut {
+    float4 exact [[color(0)]];
+    float4 fast [[color(1)]];
+};
+
+fragment VpOut vp_main(VpIn vp_in [[stage_in]]) {
+    VpOut vp_out;
+    const float4 v1 = float4(0.5f, 0.25f, 2.0f, 1.0f);
+    const float4 v2 = fma(vp_in.a, v1, v1);
+    const float4 v3 = precise::sqrt(v2);
+    const float4 v4 = precise::divide(v3, v1);
+    vp_out.exact = v4;
+    const float4 v5 = fma(vp_in.a, v1, v1);
+    const float4 v6 = rsqrt(v5);
+    const float4 v7 = 1.0f / v6;
+    vp_out.fast = v7;
+    return vp_out;
+}
+
+test 68
+        Start  68: vpmsl.outputs.vertex
+
+68: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests/vpmsl_golden" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/passthrough_vs.vpir" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/passthrough_vs.metal" "--color-outputs" "0"
+68: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests
+68: Test timeout computed to be: 10000000
+68: output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/passthrough_vs.metal; got:
+68: #include <metal_stdlib>
+68: using namespace metal;
+68: #ifndef VP_PSZ
+68: #define VP_PSZ point_size
+68: #endif
+68: 
+68: struct VpIn {
+68:     float4 pos [[attribute(0)]];
+68:     float2 uv [[attribute(1)]];
+68: };
+68: 
+68: struct VpOut {
+68:     float4 position [[position]];
+68:     float2 tex_uv [[user(loc0)]];
+68:     uint id [[user(loc1)]];
+68: };
+68: 
+68: vertex VpOut vp_main(VpIn vp_in [[stage_in]],
+68:         uint in_vid [[vertex_id]]) {
+68:     VpOut vp_out;
+68:     vp_out.position = vp_in.pos;
+68:     vp_out.tex_uv = vp_in.uv;
+68:     vp_out.id = in_vid;
+68:     return vp_out;
+68: }
+ 68/158 Test  #68: vpmsl.outputs.vertex .......................***Failed    2.40 sec
+output differs from /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/passthrough_vs.metal; got:
+#include <metal_stdlib>
+using namespace metal;
+#ifndef VP_PSZ
+#define VP_PSZ point_size
+#endif
+
+struct VpIn {
+    float4 pos [[attribute(0)]];
+    float2 uv [[attribute(1)]];
+};
+
+struct VpOut {
+    float4 position [[position]];
+    float2 tex_uv [[user(loc0)]];
+    uint id [[user(loc1)]];
+};
+
+vertex VpOut vp_main(VpIn vp_in [[stage_in]],
+        uint in_vid [[vertex_id]]) {
+    VpOut vp_out;
+    vp_out.position = vp_in.pos;
+    vp_out.tex_uv = vp_in.uv;
+    vp_out.id = in_vid;
+    return vp_out;
+}
+
+test 69
+        Start  69: vpmsl.reject.wave64
+
+69: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests/vpmsl_golden" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/reject/wave64_ballot.vpir" "--reject" "wave_size 64"
+69: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests
+69: Test timeout computed to be: 10000000
+ 69/158 Test  #69: vpmsl.reject.wave64 ........................   Passed    2.03 sec
+test 70
+        Start  70: vpmsl.reject.private_atomic
+
+70: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests/vpmsl_golden" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/reject/private_atomic.vpir" "--reject" "atomics are not allowed on private memory"
+70: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests
+70: Test timeout computed to be: 10000000
+ 70/158 Test  #70: vpmsl.reject.private_atomic ................   Passed    2.30 sec
+test 71
+        Start  71: vpmsl.reject.query_lod_vertex
+
+71: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests/vpmsl_golden" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/msl/tests/reject/query_lod_vertex.vpir" "--reject" "lod queries are fragment-only"
+71: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/msl/tests
+71: Test timeout computed to be: 10000000
+ 71/158 Test  #71: vpmsl.reject.query_lod_vertex ..............   Passed    2.10 sec
+test 72
+        Start  72: gcn.corpus
+
+72: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests/vpgcn_test" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/corpus.txt"
+72: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests
+72: Test timeout computed to be: 10000000
+72: DS    8801 valid
+72: EXP   139 valid
+72: FLAT  1602 valid
+72: MIMG  5119 valid
+72: MTBUF 2445 valid
+72: MUBUF 6346 valid
+72: SMRD  5155 valid
+72: SOP1  3368 valid
+72: SOP2  5110 valid
+72: SOPC  1786 valid
+72: SOPK  5359 valid
+72: SOPP  4140 valid
+72: VINTRP 201 valid
+72: VOP1  4073 valid
+72: VOP2  6286 valid
+72: VOP3  30171 valid
+72: VOPC  10193 valid
+72: 139533 entries (39239 invalid, 9476 unjudged skipped), 0 failures
+ 72/158 Test  #72: gcn.corpus .................................   Passed    1.91 sec
+test 73
+        Start  73: gcn.lift.cs_bytes
+
+73: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests/vpgcn_lift_test" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_bytes.lift" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_bytes.metal" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_bytes.txt"
+73: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests
+73: Test timeout computed to be: 10000000
+ 73/158 Test  #73: gcn.lift.cs_bytes ..........................   Passed    1.99 sec
+test 74
+        Start  74: gcn.lift.cs_image_atomic
+
+74: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests/vpgcn_lift_test" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_image_atomic.lift" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_image_atomic.metal" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_image_atomic.txt"
+74: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests
+74: Test timeout computed to be: 10000000
+ 74/158 Test  #74: gcn.lift.cs_image_atomic ...................   Passed    1.57 sec
+test 75
+        Start  75: gcn.lift.cs_loop
+
+75: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests/vpgcn_lift_test" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_loop.lift" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_loop.metal" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_loop.txt"
+75: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests
+75: Test timeout computed to be: 10000000
+ 75/158 Test  #75: gcn.lift.cs_loop ...........................   Passed    1.85 sec
+test 76
+        Start  76: gcn.lift.cs_padding
+
+76: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests/vpgcn_lift_test" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_padding.lift" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_padding.metal" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_padding.txt"
+76: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests
+76: Test timeout computed to be: 10000000
+ 76/158 Test  #76: gcn.lift.cs_padding ........................   Passed    2.14 sec
+test 77
+        Start  77: gcn.lift.cs_partial_store
+
+77: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests/vpgcn_lift_test" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_partial_store.lift" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_partial_store.metal" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_partial_store.txt"
+77: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests
+77: Test timeout computed to be: 10000000
+ 77/158 Test  #77: gcn.lift.cs_partial_store ..................   Passed    1.54 sec
+test 78
+        Start  78: gcn.lift.cs_resinfo
+
+78: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests/vpgcn_lift_test" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_resinfo.lift" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_resinfo.metal" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_resinfo.txt"
+78: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests
+78: Test timeout computed to be: 10000000
+ 78/158 Test  #78: gcn.lift.cs_resinfo ........................   Passed    2.43 sec
+test 79
+        Start  79: gcn.lift.cs_small_float
+
+79: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests/vpgcn_lift_test" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_small_float.lift" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_small_float.metal" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_small_float.txt"
+79: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests
+79: Test timeout computed to be: 10000000
+ 79/158 Test  #79: gcn.lift.cs_small_float ....................   Passed    2.03 sec
+test 80
+        Start  80: gcn.lift.cs_typed_store
+
+80: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests/vpgcn_lift_test" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_typed_store.lift" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_typed_store.metal" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/cs_typed_store.txt"
+80: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests
+80: Test timeout computed to be: 10000000
+ 80/158 Test  #80: gcn.lift.cs_typed_store ....................   Passed    2.52 sec
+test 81
+        Start  81: gcn.lift.ps_branch
+
+81: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests/vpgcn_lift_test" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/ps_branch.lift" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/ps_branch.metal" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/ps_branch.txt"
+81: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests
+81: Test timeout computed to be: 10000000
+ 81/158 Test  #81: gcn.lift.ps_branch .........................   Passed    2.67 sec
+test 82
+        Start  82: gcn.lift.ps_get_lod
+
+82: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests/vpgcn_lift_test" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/ps_get_lod.lift" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/ps_get_lod.metal" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/ps_get_lod.txt"
+82: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests
+82: Test timeout computed to be: 10000000
+ 82/158 Test  #82: gcn.lift.ps_get_lod ........................   Passed    2.65 sec
+test 83
+        Start  83: gcn.lift.ps_lds_spill
+
+83: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests/vpgcn_lift_test" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/ps_lds_spill.lift" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/ps_lds_spill.metal" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/ps_lds_spill.txt"
+83: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests
+83: Test timeout computed to be: 10000000
+ 83/158 Test  #83: gcn.lift.ps_lds_spill ......................   Passed    1.24 sec
+test 84
+        Start  84: gcn.lift.ps_loop_break
+
+84: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests/vpgcn_lift_test" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/ps_loop_break.lift" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/ps_loop_break.metal" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/ps_loop_break.txt"
+84: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests
+84: Test timeout computed to be: 10000000
+ 84/158 Test  #84: gcn.lift.ps_loop_break .....................   Passed    2.03 sec
+test 85
+        Start  85: gcn.lift.ps_textured
+
+85: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests/vpgcn_lift_test" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/ps_textured.lift" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/ps_textured.metal" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/ps_textured.txt"
+85: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests
+85: Test timeout computed to be: 10000000
+ 85/158 Test  #85: gcn.lift.ps_textured .......................   Passed    1.75 sec
+test 86
+        Start  86: gcn.lift.vs_cbuf_dword
+
+86: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests/vpgcn_lift_test" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/vs_cbuf_dword.lift" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/vs_cbuf_dword.metal" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/vs_cbuf_dword.txt"
+86: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests
+86: Test timeout computed to be: 10000000
+ 86/158 Test  #86: gcn.lift.vs_cbuf_dword .....................   Passed    1.01 sec
+test 87
+        Start  87: gcn.lift.vs_cbuf_x16
+
+87: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests/vpgcn_lift_test" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/vs_cbuf_x16.lift" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/vs_cbuf_x16.metal" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/vs_cbuf_x16.txt"
+87: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests
+87: Test timeout computed to be: 10000000
+ 87/158 Test  #87: gcn.lift.vs_cbuf_x16 .......................   Passed    1.10 sec
+test 88
+        Start  88: gcn.lift.vs_fetch
+
+88: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests/vpgcn_lift_test" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/vs_fetch.lift" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/vs_fetch.metal" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/vs_fetch.txt"
+88: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests
+88: Test timeout computed to be: 10000000
+ 88/158 Test  #88: gcn.lift.vs_fetch ..........................   Passed    0.90 sec
+test 89
+        Start  89: gcn.lift.vs_transform
+
+89: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests/vpgcn_lift_test" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/vs_transform.lift" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/vs_transform.metal" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/lift/vs_transform.txt"
+89: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests
+89: Test timeout computed to be: 10000000
+ 89/158 Test  #89: gcn.lift.vs_transform ......................   Passed    1.13 sec
+test 90
+        Start  90: gcn.ref.selftest
+
+90: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests/vpgcn_ref_selftest"
+90: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests
+90: Test timeout computed to be: 10000000
+90: gcn_ref selftest: OK
+ 90/158 Test  #90: gcn.ref.selftest ...........................   Passed    2.49 sec
+test 91
+        Start  91: gcn.lift.differential
+
+91: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests/vpgcn_diff" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/diff/programs.txt"
+91: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests
+91: Test timeout computed to be: 10000000
+91: 1000 programs: 1000 match, 0 mismatch, 0 lift errors, 0 eval errors, 0 not run (reference)
+ 91/158 Test  #91: gcn.lift.differential ......................   Passed    8.89 sec
+test 92
+        Start  92: gcn.lift.differential_cf
+
+92: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests/vpgcn_diff" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/gcn/tests/diff/programs_cf.txt"
+92: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/gcn/tests
+92: Test timeout computed to be: 10000000
+92: 400 programs: 400 match, 0 mismatch, 0 lift errors, 0 eval errors, 0 not run (reference)
+ 92/158 Test  #92: gcn.lift.differential_cf ...................   Passed    8.61 sec
+test 93
+        Start  93: gpu_spirv.mesh_multiview.plain
+
+93: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/spirv/vpspirv_tests" "mesh_multiview" "plain" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/spirv/tests"
+93: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/spirv
+93: Test timeout computed to be: 10000000
+ 93/158 Test  #93: gpu_spirv.mesh_multiview.plain .............   Passed    2.57 sec
+test 94
+        Start  94: gpu_spirv.mesh_multiview.opt
+
+94: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/spirv/vpspirv_tests" "mesh_multiview" "opt" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/spirv/tests"
+94: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/spirv
+94: Test timeout computed to be: 10000000
+ 94/158 Test  #94: gpu_spirv.mesh_multiview.opt ...............   Passed    0.98 sec
+test 95
+        Start  95: gpu_spirv.lit.plain
+
+95: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/spirv/vpspirv_tests" "lit" "plain" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/spirv/tests"
+95: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/spirv
+95: Test timeout computed to be: 10000000
+ 95/158 Test  #95: gpu_spirv.lit.plain ........................   Passed    1.69 sec
+test 96
+        Start  96: gpu_spirv.lit.opt
+
+96: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/spirv/vpspirv_tests" "lit" "opt" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/spirv/tests"
+96: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/spirv
+96: Test timeout computed to be: 10000000
+ 96/158 Test  #96: gpu_spirv.lit.opt ..........................   Passed    1.18 sec
+test 97
+        Start  97: gpu_spirv.cull.plain
+
+97: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/spirv/vpspirv_tests" "cull" "plain" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/spirv/tests"
+97: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/spirv
+97: Test timeout computed to be: 10000000
+ 97/158 Test  #97: gpu_spirv.cull.plain .......................   Passed    0.96 sec
+test 98
+        Start  98: gpu_spirv.cull.opt
+
+98: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/spirv/vpspirv_tests" "cull" "opt" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/spirv/tests"
+98: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/spirv
+98: Test timeout computed to be: 10000000
+ 98/158 Test  #98: gpu_spirv.cull.opt .........................   Passed    1.38 sec
+test 99
+        Start  99: gpu_spirv.subpass.plain
+
+99: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/spirv/vpspirv_tests" "subpass" "plain" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/spirv/tests"
+99: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/spirv
+99: Test timeout computed to be: 10000000
+99:   msl: main: framebuffer_fetch: type differs from the output at the same location
+99:   FAIL /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/spirv/tests/spirv_tests.cpp:166: r.ok
+99: 1 FAILED
+ 99/158 Test  #99: gpu_spirv.subpass.plain ....................***Failed    1.57 sec
+  msl: main: framebuffer_fetch: type differs from the output at the same location
+  FAIL /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/spirv/tests/spirv_tests.cpp:166: r.ok
+1 FAILED
+
+test 100
+        Start 100: gpu_spirv.subpass.opt
+
+100: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/spirv/vpspirv_tests" "subpass" "opt" "/Users/runner/work/VPKEngine/VPKEngine/gpu/shader/spirv/tests"
+100: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/shader/spirv
+100: Test timeout computed to be: 10000000
+100:   msl: main: framebuffer_fetch: type differs from the output at the same location
+100:   FAIL /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/spirv/tests/spirv_tests.cpp:166: r.ok
+100: 1 FAILED
+100/158 Test #100: gpu_spirv.subpass.opt ......................***Failed    2.52 sec
+  msl: main: framebuffer_fetch: type differs from the output at the same location
+  FAIL /Users/runner/work/VPKEngine/VPKEngine/gpu/shader/spirv/tests/spirv_tests.cpp:166: r.ok
+1 FAILED
+
+test 101
+        Start 101: gpu_core.resources
+
+101: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core/vpgpu_core_tests" "resources"
+101: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core
+101: Test timeout computed to be: 10000000
+101: [resources]
+101: all passed
+101/158 Test #101: gpu_core.resources .........................   Passed    1.43 sec
+test 102
+        Start 102: gpu_core.commands
+
+102: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core/vpgpu_core_tests" "commands"
+102: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core
+102: Test timeout computed to be: 10000000
+102: [commands]
+102: all passed
+102/158 Test #102: gpu_core.commands ..........................   Passed    2.15 sec
+test 103
+        Start 103: gpu_core.merge
+
+103: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core/vpgpu_core_tests" "merge"
+103: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core
+103: Test timeout computed to be: 10000000
+103: [merge]
+103: all passed
+103/158 Test #103: gpu_core.merge .............................   Passed    2.34 sec
+test 104
+        Start 104: gpu_core.copies
+
+104: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core/vpgpu_core_tests" "copies"
+104: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core
+104: Test timeout computed to be: 10000000
+104: [copies]
+104: all passed
+104/158 Test #104: gpu_core.copies ............................   Passed    1.64 sec
+test 105
+        Start 105: gpu_core.hazards
+
+105: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core/vpgpu_core_tests" "hazards"
+105: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core
+105: Test timeout computed to be: 10000000
+105: [hazards]
+105: all passed
+105/158 Test #105: gpu_core.hazards ...........................   Passed    2.26 sec
+test 106
+        Start 106: gpu_core.subresources
+
+106: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core/vpgpu_core_tests" "subresources"
+106: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core
+106: Test timeout computed to be: 10000000
+106: [subresources]
+106: all passed
+106/158 Test #106: gpu_core.subresources ......................   Passed    2.07 sec
+test 107
+        Start 107: gpu_core.cuts
+
+107: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core/vpgpu_core_tests" "cuts"
+107: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core
+107: Test timeout computed to be: 10000000
+107: [cuts]
+107: all passed
+107/158 Test #107: gpu_core.cuts ..............................   Passed    1.64 sec
+test 108
+        Start 108: gpu_core.diagnostics
+
+108: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core/vpgpu_core_tests" "diagnostics"
+108: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core
+108: Test timeout computed to be: 10000000
+108: [diagnostics]
+108:   gpu.frame f=7 enc=2 render=2 compute=0 naive=2 passes=2 merged=0 hoisted=0 sunk=0 dropped=0 barriers=1 intra=0 raw=1 war=0 waw=0 tile_local=0 tile_rejected=0 saved_mb=0.0 cpu_ms=0.000 gpu_ms=1.500
+108:   gpu.cut f=7 FrameStart=1 AttachmentChange=1 ClearLoad=0 Feedback=0 TileBudget=0 PinnedCopy=0 ComputeBetween=0 ComputeWork=0 CopyWork=0
+108:   gpu.enc f=7 i=0 kind=render reason=FrameStart cmds=1 passes=1 label=main_scene
+108:   gpu.enc f=7 i=1 kind=render reason=AttachmentChange cmds=1 passes=1 barrier=RAW:2>2
+108: all passed
+108/158 Test #108: gpu_core.diagnostics .......................   Passed    1.39 sec
+test 109
+        Start 109: gpu_core.pipelines
+
+109: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core/vpgpu_core_tests" "pipelines"
+109: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core
+109: Test timeout computed to be: 10000000
+109: [pipelines]
+109: all passed
+109/158 Test #109: gpu_core.pipelines .........................   Passed    1.54 sec
+test 110
+        Start 110: gpu_core.device
+
+110: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core/vpgpu_core_tests" "device"
+110: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core
+110: Test timeout computed to be: 10000000
+110: [device]
+110: all passed
+110/158 Test #110: gpu_core.device ............................   Passed    1.53 sec
+test 111
+        Start 111: gpu_core.tile
+
+111: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core/vpgpu_core_tests" "tile"
+111: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core
+111: Test timeout computed to be: 10000000
+111: [tile]
+111:   gpu.frame f=0 enc=1 render=1 compute=0 naive=3 passes=3 merged=2 hoisted=0 sunk=0 dropped=0 barriers=0 intra=0 raw=0 war=0 waw=0 tile_local=4 tile_rejected=0 saved_mb=39.6 cpu_ms=0.000
+111:   gpu.cut f=0 FrameStart=1 AttachmentChange=0 ClearLoad=0 Feedback=0 TileBudget=0 PinnedCopy=0 ComputeBetween=0 ComputeWork=0 CopyWork=0
+111:   gpu.enc f=0 i=0 kind=render reason=FrameStart cmds=3 passes=3 tile=c0,c1,c2,d label=gbuffer
+111:   gpu.enc f=0 i=0 kind=render reason=FrameStart cmds=1 passes=1 mem=c0:OtherEncoder,c1:SampledRead,c2:OtherEncoder,d:SampledRead label=gbuffer
+111:   gpu.enc f=0 i=1 kind=render reason=AttachmentChange cmds=1 passes=1 barrier=RAW:2>2
+111:   gpu.enc f=0 i=2 kind=render reason=AttachmentChange cmds=1 passes=1 mem=d:SampledRead barrier=WAR:2>2 label=lighting
+111: all passed
+111/158 Test #111: gpu_core.tile ..............................   Passed    1.86 sec
+test 112
+        Start 112: gpu_core.bindings
+
+112: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core/vpgpu_core_tests" "bindings"
+112: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core
+112: Test timeout computed to be: 10000000
+112: [bindings]
+112: all passed
+112/158 Test #112: gpu_core.bindings ..........................   Passed    1.29 sec
+test 113
+        Start 113: gpu_core.astro
+
+113: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core/vpgpu_core_tests" "astro"
+113: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core
+113: Test timeout computed to be: 10000000
+113: [astro]
+113:   astro-like frame: 48 passes, 93 commands -> naive 93 encoders, core 15 encoders (14 render, 1 compute), 11 barriers, 34 passes merged, 42 copies hoisted, 0 sunk
+113:   gpu.frame f=0 enc=15 render=14 compute=1 naive=93 passes=48 merged=34 hoisted=42 sunk=0 dropped=0 barriers=11 intra=1 raw=9 war=0 waw=3 tile_local=3 tile_rejected=0 saved_mb=31.6 cpu_ms=0.000
+113:   gpu.cut f=0 FrameStart=1 AttachmentChange=13 ClearLoad=0 Feedback=0 TileBudget=0 PinnedCopy=0 ComputeBetween=0 ComputeWork=0 CopyWork=1
+113:   gpu.enc f=0 i=5 kind=render reason=AttachmentChange cmds=14 passes=14 tile=c0,c1,c2 barrier=RAW:6>2
+113: all passed
+113/158 Test #113: gpu_core.astro .............................   Passed    1.42 sec
+test 114
+        Start 114: gpu_core.fuzz
+
+114: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core/vpgpu_core_tests" "fuzz"
+114: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/core
+114: Test timeout computed to be: 10000000
+114: [fuzz]
+114:   fuzz: 4000 frames, 238 passes merged, 3501 draws skipped, 0 violations
+114: all passed
+114/158 Test #114: gpu_core.fuzz ..............................   Passed    2.12 sec
+test 115
+        Start 115: gpu_metal.clear
+
+115: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal/vpgpu_metal_tests" "clear"
+115: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal
+115: Test timeout computed to be: 10000000
+115:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+115:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+115:     gpu.hold armed max_ms=1500
+115: SKIP all: no Metal 3 bindless
+115/158 Test #115: gpu_metal.clear ............................***Skipped   2.03 sec
+test 116
+        Start 116: gpu_metal.triangle
+
+116: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal/vpgpu_metal_tests" "triangle"
+116: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal
+116: Test timeout computed to be: 10000000
+116:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+116:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+116:     gpu.hold armed max_ms=1500
+116: SKIP all: no Metal 3 bindless
+116/158 Test #116: gpu_metal.triangle .........................***Skipped   1.52 sec
+test 117
+        Start 117: gpu_metal.textured
+
+117: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal/vpgpu_metal_tests" "textured"
+117: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal
+117: Test timeout computed to be: 10000000
+117:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+117:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+117:     gpu.hold armed max_ms=1500
+117: SKIP all: no Metal 3 bindless
+117/158 Test #117: gpu_metal.textured .........................***Skipped   2.08 sec
+test 118
+        Start 118: gpu_metal.depth
+
+118: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal/vpgpu_metal_tests" "depth"
+118: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal
+118: Test timeout computed to be: 10000000
+118:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+118:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+118:     gpu.hold armed max_ms=1500
+118: SKIP all: no Metal 3 bindless
+118/158 Test #118: gpu_metal.depth ............................***Skipped   1.99 sec
+test 119
+        Start 119: gpu_metal.mrt
+
+119: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal/vpgpu_metal_tests" "mrt"
+119: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal
+119: Test timeout computed to be: 10000000
+119:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+119:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+119:     gpu.hold armed max_ms=1500
+119: SKIP all: no Metal 3 bindless
+119/158 Test #119: gpu_metal.mrt ..............................***Skipped   2.72 sec
+test 120
+        Start 120: gpu_metal.compute
+
+120: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal/vpgpu_metal_tests" "compute"
+120: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal
+120: Test timeout computed to be: 10000000
+120:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+120:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+120:     gpu.hold armed max_ms=1500
+120: SKIP all: no Metal 3 bindless
+120/158 Test #120: gpu_metal.compute ..........................***Skipped   1.96 sec
+test 121
+        Start 121: gpu_metal.merged
+
+121: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal/vpgpu_metal_tests" "merged"
+121: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal
+121: Test timeout computed to be: 10000000
+121:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+121:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+121:     gpu.hold armed max_ms=1500
+121: SKIP all: no Metal 3 bindless
+121/158 Test #121: gpu_metal.merged ...........................***Skipped   1.52 sec
+test 122
+        Start 122: gpu_metal.deferred
+
+122: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal/vpgpu_metal_tests" "deferred"
+122: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal
+122: Test timeout computed to be: 10000000
+122:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+122:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+122:     gpu.hold armed max_ms=1500
+122: SKIP all: no Metal 3 bindless
+122/158 Test #122: gpu_metal.deferred .........................***Skipped   1.46 sec
+test 123
+        Start 123: gpu_metal.stencil
+
+123: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal/vpgpu_metal_tests" "stencil"
+123: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal
+123: Test timeout computed to be: 10000000
+123:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+123:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+123:     gpu.hold armed max_ms=1500
+123: SKIP all: no Metal 3 bindless
+123/158 Test #123: gpu_metal.stencil ..........................***Skipped   1.17 sec
+test 124
+        Start 124: gpu_metal.msaa
+
+124: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal/vpgpu_metal_tests" "msaa"
+124: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal
+124: Test timeout computed to be: 10000000
+124:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+124:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+124:     gpu.hold armed max_ms=1500
+124: SKIP all: no Metal 3 bindless
+124/158 Test #124: gpu_metal.msaa .............................***Skipped   1.29 sec
+test 125
+        Start 125: gpu_metal.blendconst
+
+125: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal/vpgpu_metal_tests" "blendconst"
+125: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal
+125: Test timeout computed to be: 10000000
+125:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+125:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+125:     gpu.hold armed max_ms=1500
+125: SKIP all: no Metal 3 bindless
+125/158 Test #125: gpu_metal.blendconst .......................***Skipped   1.13 sec
+test 126
+        Start 126: gpu_metal.timings
+
+126: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal/vpgpu_metal_tests" "timings"
+126: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal
+126: Test timeout computed to be: 10000000
+126:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+126:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+126:     gpu.hold armed max_ms=1500
+126: SKIP all: no Metal 3 bindless
+126/158 Test #126: gpu_metal.timings ..........................***Skipped   1.06 sec
+test 127
+        Start 127: gpu_metal.native
+
+127: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal/vpgpu_metal_tests" "native"
+127: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal
+127: Test timeout computed to be: 10000000
+127:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+127:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+127:     gpu.hold armed max_ms=1500
+127: SKIP all: no Metal 3 bindless
+127/158 Test #127: gpu_metal.native ...........................***Skipped   1.11 sec
+test 128
+        Start 128: gpu_metal2.clear
+
+128: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2/vpgpu_metal2_tests" "clear"
+128: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2
+128: Test timeout computed to be: 10000000
+128:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+128:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+128:     gpu.hold armed max_ms=1500
+128: SKIP all: no Metal 3 bindless
+128/158 Test #128: gpu_metal2.clear ...........................***Skipped   1.05 sec
+test 129
+        Start 129: gpu_metal2.triangle
+
+129: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2/vpgpu_metal2_tests" "triangle"
+129: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2
+129: Test timeout computed to be: 10000000
+129:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+129:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+129:     gpu.hold armed max_ms=1500
+129: SKIP all: no Metal 3 bindless
+129/158 Test #129: gpu_metal2.triangle ........................***Skipped   2.02 sec
+test 130
+        Start 130: gpu_metal2.textured
+
+130: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2/vpgpu_metal2_tests" "textured"
+130: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2
+130: Test timeout computed to be: 10000000
+130:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+130:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+130:     gpu.hold armed max_ms=1500
+130: SKIP all: no Metal 3 bindless
+130/158 Test #130: gpu_metal2.textured ........................***Skipped   3.40 sec
+test 131
+        Start 131: gpu_metal2.depth
+
+131: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2/vpgpu_metal2_tests" "depth"
+131: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2
+131: Test timeout computed to be: 10000000
+131:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+131:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+131:     gpu.hold armed max_ms=1500
+131: SKIP all: no Metal 3 bindless
+131/158 Test #131: gpu_metal2.depth ...........................***Skipped   1.37 sec
+test 132
+        Start 132: gpu_metal2.mrt
+
+132: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2/vpgpu_metal2_tests" "mrt"
+132: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2
+132: Test timeout computed to be: 10000000
+132:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+132:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+132:     gpu.hold armed max_ms=1500
+132: SKIP all: no Metal 3 bindless
+132/158 Test #132: gpu_metal2.mrt .............................***Skipped   0.98 sec
+test 133
+        Start 133: gpu_metal2.compute
+
+133: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2/vpgpu_metal2_tests" "compute"
+133: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2
+133: Test timeout computed to be: 10000000
+133:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+133:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+133:     gpu.hold armed max_ms=1500
+133: SKIP all: no Metal 3 bindless
+133/158 Test #133: gpu_metal2.compute .........................***Skipped   1.50 sec
+test 134
+        Start 134: gpu_metal2.merged
+
+134: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2/vpgpu_metal2_tests" "merged"
+134: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2
+134: Test timeout computed to be: 10000000
+134:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+134:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+134:     gpu.hold armed max_ms=1500
+134: SKIP all: no Metal 3 bindless
+134/158 Test #134: gpu_metal2.merged ..........................***Skipped   1.02 sec
+test 135
+        Start 135: gpu_metal2.deferred
+
+135: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2/vpgpu_metal2_tests" "deferred"
+135: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2
+135: Test timeout computed to be: 10000000
+135:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+135:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+135:     gpu.hold armed max_ms=1500
+135: SKIP all: no Metal 3 bindless
+135/158 Test #135: gpu_metal2.deferred ........................***Skipped   0.95 sec
+test 136
+        Start 136: gpu_metal2.stencil
+
+136: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2/vpgpu_metal2_tests" "stencil"
+136: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2
+136: Test timeout computed to be: 10000000
+136:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+136:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+136:     gpu.hold armed max_ms=1500
+136: SKIP all: no Metal 3 bindless
+136/158 Test #136: gpu_metal2.stencil .........................***Skipped   0.95 sec
+test 137
+        Start 137: gpu_metal2.msaa
+
+137: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2/vpgpu_metal2_tests" "msaa"
+137: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2
+137: Test timeout computed to be: 10000000
+137:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+137:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+137:     gpu.hold armed max_ms=1500
+137: SKIP all: no Metal 3 bindless
+137/158 Test #137: gpu_metal2.msaa ............................***Skipped   0.88 sec
+test 138
+        Start 138: gpu_metal2.blendconst
+
+138: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2/vpgpu_metal2_tests" "blendconst"
+138: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2
+138: Test timeout computed to be: 10000000
+138:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+138:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+138:     gpu.hold armed max_ms=1500
+138: SKIP all: no Metal 3 bindless
+138/158 Test #138: gpu_metal2.blendconst ......................***Skipped   1.04 sec
+test 139
+        Start 139: gpu_metal2.timings
+
+139: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2/vpgpu_metal2_tests" "timings"
+139: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2
+139: Test timeout computed to be: 10000000
+139:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+139:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+139:     gpu.hold armed max_ms=1500
+139: SKIP all: no Metal 3 bindless
+139/158 Test #139: gpu_metal2.timings .........................***Skipped   0.95 sec
+test 140
+        Start 140: gpu_metal2.native
+
+140: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2/vpgpu_metal2_tests" "native"
+140: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/metal2
+140: Test timeout computed to be: 10000000
+140:     gpu.metal.info what=no_residency_set fallback=use_resource error=unknown_error
+140:     gpu.metal device=Apple_xrOS_simulator_GPU simulator=1 metal3=0 apple4=0 apple7=0 argument_buffers_tier=1 bindless=0 stage_timestamps=0 residency=0 archive=0 tile_memory=0
+140:     gpu.hold armed max_ms=1500
+140: SKIP all: no Metal 3 bindless
+140/158 Test #140: gpu_metal2.native ..........................***Skipped   1.94 sec
+test 141
+        Start 141: vpps4.tiling
+
+141: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4/vpps4_tiling_tests"
+141: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4
+141: Test timeout computed to be: 10000000
+141: tiling: ok
+141/158 Test #141: vpps4.tiling ...............................   Passed    3.51 sec
+test 142
+        Start 142: vpps4.clear_and_draw
+
+142: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4/vpps4_tests" "clear_and_draw"
+142: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4
+142: Test timeout computed to be: 10000000
+142/158 Test #142: vpps4.clear_and_draw .......................   Passed    1.75 sec
+test 143
+        Start 143: vpps4.textured
+
+143: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4/vpps4_tests" "textured"
+143: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4
+143: Test timeout computed to be: 10000000
+143/158 Test #143: vpps4.textured .............................   Passed    1.63 sec
+test 144
+        Start 144: vpps4.fan
+
+144: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4/vpps4_tests" "fan"
+144: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4
+144: Test timeout computed to be: 10000000
+144/158 Test #144: vpps4.fan ..................................   Passed    1.64 sec
+test 145
+        Start 145: vpps4.shader_error
+
+145: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4/vpps4_tests" "shader_error"
+145: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4
+145: Test timeout computed to be: 10000000
+145/158 Test #145: vpps4.shader_error .........................   Passed    2.22 sec
+test 146
+        Start 146: vpps4.linear_upload
+
+146: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4/vpps4_tests" "linear_upload"
+146: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4
+146: Test timeout computed to be: 10000000
+146/158 Test #146: vpps4.linear_upload ........................   Passed    2.33 sec
+test 147
+        Start 147: vpps4.tiled_upload
+
+147: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4/vpps4_tests" "tiled_upload"
+147: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4
+147: Test timeout computed to be: 10000000
+147/158 Test #147: vpps4.tiled_upload .........................   Passed    1.87 sec
+test 148
+        Start 148: vpps4.fetch_subroutine
+
+148: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4/vpps4_tests" "fetch_subroutine"
+148: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4
+148: Test timeout computed to be: 10000000
+148/158 Test #148: vpps4.fetch_subroutine .....................   Passed    2.09 sec
+test 149
+        Start 149: vpps4.indirect
+
+149: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4/vpps4_tests" "indirect"
+149: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4
+149: Test timeout computed to be: 10000000
+149/158 Test #149: vpps4.indirect .............................   Passed    2.02 sec
+test 150
+        Start 150: vpps4.gds_append
+
+150: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4/vpps4_tests" "gds_append"
+150: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4
+150: Test timeout computed to be: 10000000
+150/158 Test #150: vpps4.gds_append ...........................   Passed    1.39 sec
+test 151
+        Start 151: vpps4.dma
+
+151: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4/vpps4_tests" "dma"
+151: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4
+151: Test timeout computed to be: 10000000
+151/158 Test #151: vpps4.dma ..................................   Passed    1.64 sec
+test 152
+        Start 152: vpps4.content_check
+
+152: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4/vpps4_tests" "content_check"
+152: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4
+152: Test timeout computed to be: 10000000
+152/158 Test #152: vpps4.content_check ........................   Passed    1.58 sec
+test 153
+        Start 153: vpps4.msaa_limit
+
+153: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4/vpps4_tests" "msaa_limit"
+153: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4
+153: Test timeout computed to be: 10000000
+153/158 Test #153: vpps4.msaa_limit ...........................   Passed    2.01 sec
+test 154
+        Start 154: vpps4.resolve
+
+154: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4/vpps4_tests" "resolve"
+154: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4
+154: Test timeout computed to be: 10000000
+154/158 Test #154: vpps4.resolve ..............................   Passed    2.52 sec
+test 155
+        Start 155: vpps4.runaway
+
+155: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4/vpps4_tests" "runaway"
+155: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4
+155: Test timeout computed to be: 10000000
+155/158 Test #155: vpps4.runaway ..............................   Passed    2.67 sec
+test 156
+        Start 156: vpps4.storage_alias
+
+156: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4/vpps4_tests" "storage_alias"
+156: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4
+156: Test timeout computed to be: 10000000
+156/158 Test #156: vpps4.storage_alias ........................   Passed    1.56 sec
+test 157
+        Start 157: vpps4.busy_ranges
+
+157: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4/vpps4_tests" "busy_ranges"
+157: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4
+157: Test timeout computed to be: 10000000
+157/158 Test #157: vpps4.busy_ranges ..........................   Passed    2.26 sec
+test 158
+        Start 158: vpps4.draw_bench
+
+158: Test command: /Users/runner/work/VPKEngine/VPKEngine/gpu/metal/ci/simctl-run.sh "/Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4/vpps4_tests" "draw_bench"
+158: Working Directory: /Users/runner/work/VPKEngine/VPKEngine/build/gpu-xrsim/ps4
+158: Test timeout computed to be: 10000000
+158: draw_bench: 3.69 us/draw (25600 draws)
+158/158 Test #158: vpps4.draw_bench ...........................   Passed    2.20 sec
+
+87% tests passed, 20 tests failed out of 158
+
+Total Test time (real) = 524.92 sec
+
+The following tests did not run:
+	115 - gpu_metal.clear (Skipped)
+	116 - gpu_metal.triangle (Skipped)
+	117 - gpu_metal.textured (Skipped)
+	118 - gpu_metal.depth (Skipped)
+	119 - gpu_metal.mrt (Skipped)
+	120 - gpu_metal.compute (Skipped)
+	121 - gpu_metal.merged (Skipped)
+	122 - gpu_metal.deferred (Skipped)
+	123 - gpu_metal.stencil (Skipped)
+	124 - gpu_metal.msaa (Skipped)
+	125 - gpu_metal.blendconst (Skipped)
+	126 - gpu_metal.timings (Skipped)
+	127 - gpu_metal.native (Skipped)
+	128 - gpu_metal2.clear (Skipped)
+	129 - gpu_metal2.triangle (Skipped)
+	130 - gpu_metal2.textured (Skipped)
+	131 - gpu_metal2.depth (Skipped)
+	132 - gpu_metal2.mrt (Skipped)
+	133 - gpu_metal2.compute (Skipped)
+	134 - gpu_metal2.merged (Skipped)
+	135 - gpu_metal2.deferred (Skipped)
+	136 - gpu_metal2.stencil (Skipped)
+	137 - gpu_metal2.msaa (Skipped)
+	138 - gpu_metal2.blendconst (Skipped)
+	139 - gpu_metal2.timings (Skipped)
+	140 - gpu_metal2.native (Skipped)
+
+The following tests FAILED:
+	 50 - vpmsl.golden.compute_loop (Failed)
+	 51 - vpmsl.golden.deferred_light_fetched_fs (Failed)
+	 52 - vpmsl.golden.deferred_light_fs (Failed)
+	 53 - vpmsl.golden.heavy_lighting_fs (Failed)
+	 54 - vpmsl.golden.image_atomics (Failed)
+	 55 - vpmsl.golden.mesh_stage (Failed)
+	 56 - vpmsl.golden.object_stage (Failed)
+	 57 - vpmsl.golden.passthrough_vs (Failed)
+	 58 - vpmsl.golden.precise_fma (Failed)
+	 59 - vpmsl.golden.private_memory (Failed)
+	 61 - vpmsl.golden.quad_ops (Failed)
+	 62 - vpmsl.golden.query_lod (Failed)
+	 63 - vpmsl.golden.subgroup (Failed)
+	 64 - vpmsl.golden.syntax_tour (Failed)
+	 65 - vpmsl.golden.textured_fs (Failed)
+	 66 - vpmsl.outputs.deferred_light (Failed)
+	 67 - vpmsl.outputs.precise_fma (Failed)
+	 68 - vpmsl.outputs.vertex (Failed)
+	 99 - gpu_spirv.subpass.plain (Failed)
+	100 - gpu_spirv.subpass.opt (Failed)
+Errors while running CTest

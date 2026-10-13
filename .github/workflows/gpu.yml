@@ -45,8 +45,8 @@ jobs:
           mkdir -p /tmp/ci-logs && cp -r build/logs/. /tmp/ci-logs/ 2>/dev/null || true
           cd /tmp/ci-logs
           git init -q && git checkout -q -b ci-logs
-          git -c user.name=VPEngine-CI -c user.email=ci@vpengine.invalid add -A
-          git -c user.name=VPEngine-CI -c user.email=ci@vpengine.invalid commit -qm "logs ${GITHUB_SHA::7} ${GITHUB_JOB}" --allow-empty
+          git -c user.name=VPKEngine-CI -c user.email=ci@vpkengine.invalid add -A
+          git -c user.name=VPKEngine-CI -c user.email=ci@vpkengine.invalid commit -qm "logs ${GITHUB_SHA::7} ${GITHUB_JOB}" --allow-empty
           git push -qf "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git" ci-logs:ci-logs-gpu-${GITHUB_JOB}
 
   visionos-device:
@@ -114,8 +114,8 @@ jobs:
           mkdir -p /tmp/ci-logs && cp -r build/logs/. /tmp/ci-logs/ 2>/dev/null || true
           cd /tmp/ci-logs
           git init -q && git checkout -q -b ci-logs
-          git -c user.name=VPEngine-CI -c user.email=ci@vpengine.invalid add -A
-          git -c user.name=VPEngine-CI -c user.email=ci@vpengine.invalid commit -qm "logs ${GITHUB_SHA::7} ${GITHUB_JOB}" --allow-empty
+          git -c user.name=VPKEngine-CI -c user.email=ci@vpkengine.invalid add -A
+          git -c user.name=VPKEngine-CI -c user.email=ci@vpkengine.invalid commit -qm "logs ${GITHUB_SHA::7} ${GITHUB_JOB}" --allow-empty
           git push -qf "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git" ci-logs:ci-logs-gpu-${GITHUB_JOB}
 
   visionos-simulator:
@@ -186,6 +186,6 @@ jobs:
           mkdir -p /tmp/ci-logs && cp -r build/logs/. /tmp/ci-logs/ 2>/dev/null || true
           cd /tmp/ci-logs
           git init -q && git checkout -q -b ci-logs
-          git -c user.name=VPEngine-CI -c user.email=ci@vpengine.invalid add -A
-          git -c user.name=VPEngine-CI -c user.email=ci@vpengine.invalid commit -qm "logs ${GITHUB_SHA::7} ${GITHUB_JOB}" --allow-empty
+          git -c user.name=VPKEngine-CI -c user.email=ci@vpkengine.invalid add -A
+          git -c user.name=VPKEngine-CI -c user.email=ci@vpkengine.invalid commit -qm "logs ${GITHUB_SHA::7} ${GITHUB_JOB}" --allow-empty
           git push -qf "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git" ci-logs:ci-logs-gpu-${GITHUB_JOB}
